@@ -1,0 +1,23 @@
+# Airflow
+logs/
+*.pyc
+__pycache__/
+.airflow_db_initialized
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# Environment
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

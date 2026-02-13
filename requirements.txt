@@ -1,0 +1,14 @@
+# Python packages untuk development (optional)
+# Packages ini bisa diinstall jika ingin develop DAGs secara lokal
+
+apache-airflow==2.8.1
+pandas
+numpy
+requests
+
+# Google Sheets API
+gspread==5.12.0
+oauth2client==4.1.3
+
+# MySQL connector (untuk nanti)
+pymysql==1.1.0
