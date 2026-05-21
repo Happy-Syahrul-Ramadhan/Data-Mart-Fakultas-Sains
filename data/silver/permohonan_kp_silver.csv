@@ -1,0 +1,22 @@
+id,status,timestamp,program_studi,jenis_layanan,nama,nim
+1,Sudah Dilayani,2026-01-17 08:13:11,Kimia,Kerja Praktik,Gilang Husna,122000041
+2,Pending,2026-04-25 01:26:29,Biologi,Kerja Praktik,gina,122450001
+3,Sudah Dilayani,2026-01-17 09:44:27,Biologi,Kerja Praktik,Naura Rizaldi,122000042
+4,Sudah Dilayani,2026-01-17 11:39:52,Sains Data,Kerja Praktik,Ferdi Nabila,122000043
+5,Sudah Dilayani,2026-01-18 08:20:35,Fisika,Kerja Praktik,Syifa Ardiansyah,122000044
+6,Sudah Dilayani,2026-01-18 10:15:08,Farmasi,Kerja Praktik,Tegar Rahmawati,122000045
+7,Sudah Dilayani,2026-01-18 13:07:14,Matematika,Kerja Praktik,Mutiara Akbar,122000046
+8,Sudah Dilayani,2026-01-19 08:06:49,Sains Aktuaria,Kerja Praktik,Rio Khairani,122000047
+9,Sudah Dilayani,2026-01-19 09:57:23,Sains Lingkungan Kelautan,Kerja Praktik,Nisrina Saputro,122000048
+10,Pending,2026-01-19 12:31:46,Magister Fisika,Kerja Praktik,Alvin Maharani,122000049
+11,Pending,2026-01-20 08:18:12,Sains Atmosfer dan Keplanetan,Kerja Praktik,Naufal Sekar,122000050
+12,Pending,2026-01-20 10:42:39,Fisika,Kerja Praktik,Putra Hanifah,122000051
+13,Pending,2026-01-20 13:23:55,Kimia,Kerja Praktik,Maudy Rifqi,122000052
+14,Pending,2026-01-21 08:27:41,Biologi,Kerja Praktik,Yoga Amalia,122000053
+15,Pending,2026-01-21 09:49:16,Farmasi,Kerja Praktik,Dea Rasyid,122000054
+16,Pending,2026-01-21 11:56:02,Matematika,Kerja Praktik,Fahmi Nuraini,122000055
+17,Pending,2026-01-22 08:12:14,Sains Data,Kerja Praktik,Tasya Pradana,122000056
+18,Pending,2026-01-22 10:17:43,Sains Aktuaria,Kerja Praktik,Vino Ayuningtyas,122000057
+19,Pending,2026-01-22 13:01:37,Magister Fisika,Kerja Praktik,Selin Hidayah,122000058
+20,Pending,2026-01-23 08:34:58,Sains Lingkungan Kelautan,Kerja Praktik,Bintang Mahesa,122000059
+21,Pending,2026-01-23 11:12:20,Biologi,Kerja Praktik,Nisa Kartika,122000060

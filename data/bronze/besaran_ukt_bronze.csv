@@ -1,4 +1,26 @@
-id,status,Timestamp,jenis layanan,nama,prodi
-1,Pending,22/01/2026 4:27:23,Besaran UKT,syahrul,Sains Data
-2,Pending,22/01/2026 4:28:00,Besaran UKT,tessss,Sains Lingkungan Kelautan
-3,Sudah Dilayani,22/01/2026 4:28:37,Besaran UKT,saya,Sains Data
+id,status,Timestamp,jenis layanan,Nama,Prodi,NIM
+1,Sudah Dilayani,10/01/2026 8:09:18,Besaran UKT,Luthfi Perdana,Biologi,122000021
+2,Sudah Dilayani,10/01/2026 9:36:42,Besaran UKT,Aurel Safitri,Farmasi,122000022
+3,Sudah Dilayani,10/01/2026 11:14:07,Besaran UKT,Reza Puspita,Sains Data,122000023
+4,Sudah Dilayani,11/01/2026 8:21:56,Besaran UKT,Anisa Gunawan,Fisika,122000024
+5,Pending,23/04/2026 0:45:46,Besaran UKT,dani,Farmasi,122340045
+6,Pending,23/04/2026 0:47:34,Besaran UKT,ikbal,Sains Atmosfer dan Keplanetan,122340056
+7,Pending,25/04/2026 1:27:52,Besaran UKT,Syahrul,Sains Data,122450013
+8,Pending,30/04/2026 0:11:11,Besaran UKT,hermawan,Kimia,122459934
+9,Pending,13/05/2026 10:20:27,Besaran UKT,syahrul,Sains Data,122450013
+10,Pending,19/05/2026 22:55:52,Besaran UKT,syahrul,Sains Data,122450013
+11,Pending,19/05/2026 22:59:32,Besaran UKT,,Farmasi,122450013
+12,Sudah Dilayani,11/01/2026 10:48:33,Besaran UKT,Yusuf Anggraini,Kimia,122000025
+13,Sudah Dilayani,11/01/2026 13:02:19,Besaran UKT,Dea Mahendra,Matematika,122000026
+14,Sudah Dilayani,12/01/2026 8:17:24,Besaran UKT,Hafiz Novitasari,Magister Fisika,122000027
+15,Sudah Dilayani,12/01/2026 9:55:41,Besaran UKT,Citra Wijaya,Sains Aktuaria,122000028
+16,Sudah Dilayani,12/01/2026 12:43:15,Besaran UKT,Rafli Kusuma,Sains Lingkungan Kelautan,122000029
+17,Sudah Dilayani,13/01/2026 8:28:37,Besaran UKT,Bella Hakim,Sains Atmosfer dan Keplanetan,122000030
+18,Sudah Dilayani,13/01/2026 10:16:12,Besaran UKT,Iqbal Mardiana,Fisika,122000031
+19,Pending,13/01/2026 13:09:44,Besaran UKT,Shafa Prasetyo,Kimia,122000032
+20,Pending,14/01/2026 8:11:53,Besaran UKT,Hanif Lestari,Biologi,122000033
+21,Pending,14/01/2026 9:47:28,Besaran UKT,Karina Santoso,Farmasi,122000034
+22,Pending,14/01/2026 11:58:31,Besaran UKT,Wahyu Pangestu,Sains Data,122000035
+23,Pending,15/01/2026 8:24:16,Besaran UKT,Amel Rahardjo,Matematika,122000036
+24,Sudah Dilayani,15/01/2026 10:21:57,Besaran UKT,Daniel Mutia,Sains Aktuaria,122000037
+25,Pending,15/01/2026 13:35:08,Besaran UKT,Salma Febrianto,Magister Fisika,122000038

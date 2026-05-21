@@ -1,6 +1,4 @@
-# Python packages untuk development (optional)
-# Packages ini bisa diinstall jika ingin develop DAGs secara lokal
-
+# Packages diinstall 
 apache-airflow==2.8.1
 pandas
 numpy
@@ -10,5 +8,5 @@ requests
 gspread==5.12.0
 oauth2client==4.1.3
 
-# MySQL connector (untuk nanti)
+# database connector 
 pymysql==1.1.0

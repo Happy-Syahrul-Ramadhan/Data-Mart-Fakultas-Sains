@@ -1,0 +1,22 @@
+id,status,timestamp,jenis_layanan,nama,program_studi,nim
+1,Sudah Dilayani,2026-02-21 08:08:37,Rekomendasi Beasiswa atau Lomba,Nayla Rahma,Kimia,122000141
+2,Pending,2026-04-25 01:17:38,Rekomendasi Beasiswa atau Lomba,Syahrul,Sains Atmosfer dan Keplanetan,122450013
+3,Sudah Dilayani,2026-02-21 09:52:14,Rekomendasi Beasiswa atau Lomba,Ardiansyah Putra,Fisika,122000142
+4,Sudah Dilayani,2026-02-21 11:37:59,Rekomendasi Beasiswa atau Lomba,Salsa Khairani,Farmasi,122000143
+5,Sudah Dilayani,2026-02-22 08:19:45,Rekomendasi Beasiswa atau Lomba,Fauzan Prameswari,Biologi,122000144
+6,Pending,2026-02-22 10:11:08,Rekomendasi Beasiswa atau Lomba,Indira Maheswari,Matematika,122000145
+7,Pending,2026-02-22 13:24:33,Rekomendasi Beasiswa atau Lomba,Rafif Hidayah,Sains Data,122000146
+8,Pending,2026-02-23 08:27:56,Rekomendasi Beasiswa atau Lomba,Nadhif Saputra,Sains Aktuaria,122000147
+9,Pending,2026-02-23 09:46:21,Rekomendasi Beasiswa atau Lomba,Tiara Oktaviana,Magister Fisika,122000148
+10,Pending,2026-02-23 12:18:05,Rekomendasi Beasiswa atau Lomba,Dian Pratami,Sains Lingkungan Kelautan,122000149
+11,Pending,2026-02-24 08:10:42,Rekomendasi Beasiswa atau Lomba,Gilbert Kusuma,Sains Atmosfer dan Keplanetan,122000150
+12,Pending,2026-02-24 10:23:16,Rekomendasi Beasiswa atau Lomba,Naila Permatasari,Kimia,122000151
+13,Pending,2026-02-24 13:07:51,Rekomendasi Beasiswa atau Lomba,Fikran Nurazka,Fisika,122000152
+14,Pending,2026-02-25 08:33:09,Rekomendasi Beasiswa atau Lomba,Shafa Wulandari,Farmasi,122000153
+15,Pending,2026-02-25 09:58:27,Rekomendasi Beasiswa atau Lomba,Rafael Cahyono,Biologi,122000154
+16,Pending,2026-02-25 12:44:38,Rekomendasi Beasiswa atau Lomba,Mutia Rahmadani,Matematika,122000155
+17,Pending,2026-02-26 08:16:24,Rekomendasi Beasiswa atau Lomba,Haidar Prakoso,Sains Data,122000156
+18,Pending,2026-02-26 10:05:49,Rekomendasi Beasiswa atau Lomba,Keysa Nurfadila,Sains Aktuaria,122000157
+19,Pending,2026-02-26 13:21:11,Rekomendasi Beasiswa atau Lomba,Farhan Mahesa,Magister Fisika,122000158
+20,Pending,2026-02-27 08:41:57,Rekomendasi Beasiswa atau Lomba,Della Anggraini,Sains Lingkungan Kelautan,122000159
+21,Pending,2026-02-27 11:09:30,Rekomendasi Beasiswa atau Lomba,Ihsan Rahmawan,Kimia,122000160

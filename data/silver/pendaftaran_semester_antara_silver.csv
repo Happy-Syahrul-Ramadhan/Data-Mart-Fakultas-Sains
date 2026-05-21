@@ -1,0 +1,22 @@
+id,status,timestamp,jenis_layanan,nama,program_studi,nim
+1,Sudah Dilayani,2026-01-31 08:14:55,Pendaftaran Semester Antara,Mikael Husada,Kimia,122000081
+2,Pending,2026-04-25 01:20:11,Pendaftaran Semester Antara,Syahrul,Sains Data,122450013
+3,Sudah Dilayani,2026-01-31 09:42:33,Pendaftaran Semester Antara,Silvi Nuraini,Fisika,122000082
+4,Sudah Dilayani,2026-01-31 11:17:06,Pendaftaran Semester Antara,Bagus Pramono,Farmasi,122000083
+5,Sudah Dilayani,2026-02-01 08:09:24,Pendaftaran Semester Antara,Naila Khairunisa,Biologi,122000084
+6,Sudah Dilayani,2026-02-01 10:26:48,Pendaftaran Semester Antara,Ardi Syafitri,Matematika,122000085
+7,Sudah Dilayani,2026-02-01 13:13:37,Pendaftaran Semester Antara,Latifa Mahesa,Sains Data,122000086
+8,Sudah Dilayani,2026-02-02 08:22:16,Pendaftaran Semester Antara,Fauzi Wardani,Sains Aktuaria,122000087
+9,Sudah Dilayani,2026-02-02 09:51:44,Pendaftaran Semester Antara,Karin Ramadhani,Magister Fisika,122000088
+10,Sudah Dilayani,2026-02-02 12:08:29,Pendaftaran Semester Antara,Rafsan Pranata,Sains Lingkungan Kelautan,122000089
+11,Sudah Dilayani,2026-02-03 08:18:53,Pendaftaran Semester Antara,Nazwa Anggraini,Sains Atmosfer dan Keplanetan,122000090
+12,Pending,2026-02-03 10:11:27,Pendaftaran Semester Antara,Andika Permatasari,Kimia,122000091
+13,Pending,2026-02-03 13:36:14,Pendaftaran Semester Antara,Tiyas Mukhlis,Fisika,122000092
+14,Pending,2026-02-04 08:07:35,Pendaftaran Semester Antara,Raka Saputri,Farmasi,122000093
+15,Pending,2026-02-04 09:45:58,Pendaftaran Semester Antara,Vania Rahman,Biologi,122000094
+16,Pending,2026-02-04 11:59:22,Pendaftaran Semester Antara,Fikar Adelia,Matematika,122000095
+17,Pending,2026-02-05 08:30:41,Pendaftaran Semester Antara,Ghea Prakoso,Sains Data,122000096
+18,Pending,2026-02-05 10:24:11,Pendaftaran Semester Antara,Evan Nurhidayah,Sains Aktuaria,122000097
+19,Pending,2026-02-05 13:10:56,Pendaftaran Semester Antara,Mila Fikri,Magister Fisika,122000098
+20,Pending,2026-02-06 08:47:39,Pendaftaran Semester Antara,Ridho Larasati,Sains Lingkungan Kelautan,122000099
+21,Pending,2026-02-06 11:05:18,Pendaftaran Semester Antara,Putri Alfarizi,Kimia,122000100

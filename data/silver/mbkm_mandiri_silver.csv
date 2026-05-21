@@ -1,0 +1,22 @@
+id,status,timestamp,jenis_layanan,nama,program_studi,nim
+1,Sudah Dilayani,2026-03-07 08:13:47,mbkm mandiri,Azriel Maulana,Fisika,122000181
+2,Pending,2026-04-25 00:38:01,mbkm mandiri,gina,Kimia,122454342
+3,Sudah Dilayani,2026-03-07 09:55:18,mbkm mandiri,Sabina Rahmadani,Matematika,122000182
+4,Sudah Dilayani,2026-03-07 11:41:06,mbkm mandiri,Fathan Kusnandar,Kimia,122000183
+5,Sudah Dilayani,2026-03-08 08:16:35,mbkm mandiri,Naura Maheswari,Biologi,122000184
+6,Sudah Dilayani,2026-03-08 10:07:52,mbkm mandiri,Gibran Prakoso,Farmasi,122000185
+7,Sudah Dilayani,2026-03-08 13:20:14,mbkm mandiri,Shinta Nuraini,Sains Data,122000186
+8,Sudah Dilayani,2026-03-09 08:24:41,mbkm mandiri,Faris Wijayanto,Sains Lingkungan Kelautan,122000187
+9,Sudah Dilayani,2026-03-09 09:48:29,mbkm mandiri,Amel Permata,Sains Atmosfer dan Keplanetan,122000188
+10,Sudah Dilayani,2026-03-09 12:16:37,mbkm mandiri,Naufal Hidayah,Sains Aktuaria,122000189
+11,Sudah Dilayani,2026-03-10 08:11:23,mbkm mandiri,Keisha Pratama,Magister Fisika,122000190
+12,Pending,2026-03-10 10:18:56,mbkm mandiri,Davin Saputra,Fisika,122000191
+13,Pending,2026-03-10 13:34:25,mbkm mandiri,Salwa Anggraini,Kimia,122000192
+14,Pending,2026-03-11 08:29:08,mbkm mandiri,Hafiz Mahardika,Biologi,122000193
+15,Pending,2026-03-11 09:57:44,mbkm mandiri,Nasywa Kirana,Farmasi,122000194
+16,Pending,2026-03-11 12:43:17,mbkm mandiri,Ilham Pranata,Sains Data,122000195
+17,Pending,2026-03-12 08:17:39,mbkm mandiri,Nabila Rahajeng,Matematika,122000196
+18,Pending,2026-03-12 10:04:11,mbkm mandiri,Ardian Fauzi,Sains Aktuaria,122000197
+19,Pending,2026-03-12 13:26:53,mbkm mandiri,Meisya Pramesti,Sains Lingkungan Kelautan,122000198
+20,Pending,2026-03-13 08:40:32,mbkm mandiri,Rafli Nurhuda,Magister Fisika,122000199
+21,Pending,2026-03-13 11:15:09,mbkm mandiri,Tiara Widyaningrum,Fisika,122000200

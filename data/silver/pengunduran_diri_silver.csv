@@ -1,0 +1,21 @@
+id,status,timestamp,jenis_layanan,nama,program_studi,nim
+1,Sudah Dilayani,2026-02-14 08:09:42,Pengunduran Diri,Davin Pratama,Biologi,122000121
+2,Pending,2026-04-25 01:30:24,Pengunduran Diri,Syahrul,Sains Data,122450009
+3,Pending,2026-04-27 16:28:48,Pengunduran Diri,Syahrul,Farmasi,122452213
+4,Sudah Dilayani,2026-02-14 09:41:15,Pengunduran Diri,Safira Hanum,Farmasi,122000122
+5,Sudah Dilayani,2026-02-14 11:26:33,Pengunduran Diri,Naufan Rasyid,Sains Data,122000123
+6,Sudah Dilayani,2026-02-15 08:13:28,Pengunduran Diri,Rani Khumaira,Fisika,122000124
+7,Pending,2026-02-15 10:18:54,Pengunduran Diri,Fahreza Nugroho,Kimia,122000125
+8,Pending,2026-02-15 13:30:07,Pengunduran Diri,Salwa Puspita,Matematika,122000126
+10,Pending,2026-02-16 09:56:39,Pengunduran Diri,Meisya Rahmani,Sains Aktuaria,122000128
+11,Pending,2026-02-16 12:12:24,Pengunduran Diri,Bima Prakoso,Sains Lingkungan Kelautan,122000129
+13,Pending,2026-02-17 10:08:22,Pengunduran Diri,Rafsan Wijaya,Fisika,122000131
+14,Pending,2026-02-17 13:19:46,Pengunduran Diri,Keira Anggraini,Kimia,122000132
+15,Pending,2026-02-18 08:36:51,Pengunduran Diri,Gilang Ramadhan,Biologi,122000133
+16,Pending,2026-02-18 09:47:10,Pengunduran Diri,Nabila Salsabila,Farmasi,122000134
+17,Pending,2026-02-18 12:55:18,Pengunduran Diri,Hafizh Perdana,Sains Data,122000135
+18,Pending,2026-02-19 08:11:57,Pengunduran Diri,Karin Maulida,Matematika,122000136
+19,Pending,2026-02-19 10:29:35,Pengunduran Diri,Daffa Rahardian,Sains Aktuaria,122000137
+20,Pending,2026-02-19 13:03:41,Pengunduran Diri,Cindy Fadillah,Magister Fisika,122000138
+21,Pending,2026-02-20 08:43:06,Pengunduran Diri,Zidan Maulana,Sains Lingkungan Kelautan,122000139
+22,Pending,2026-02-20 11:14:52,Pengunduran Diri,Shania Permata,Farmasi,122000140

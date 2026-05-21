@@ -1,8 +1,22 @@
-id,status,Timestamp,jenis layanan,nama mahasiswa,program studi
-1,Pending,22/01/2026 0:00:08,,syahrul,
-2,Pending,22/01/2026 0:17:08,,sahit,Sains Data
-3,Pending,22/01/2026 0:17:29,,sahit,Biologi
-4,Pending,22/01/2026 0:25:14,,sahitttt,Farmasi
-5,Pending,22/01/2026 0:26:06,Pendaftaran Semester Antara,asdasdas,
-6,Sudah Dilayani,22/01/2026 1:02:57,Pendaftaran Semester Antara,tesss,
-7,Sudah Dilayani,22/01/2026 1:06:20,Pendaftaran Semester Antara,tesss,Farmasi
+id,status,Timestamp,jenis layanan,Nama Mahasiswa,Program Studi,NIM
+1,Sudah Dilayani,31/01/2026 8:14:55,Pendaftaran Semester Antara,Mikael Husada,Kimia,122000081
+2,Pending,25/04/2026 1:20:11,Pendaftaran Semester Antara,Syahrul,Sains Data,122450013
+3,Sudah Dilayani,31/01/2026 9:42:33,Pendaftaran Semester Antara,Silvi Nuraini,Fisika,122000082
+4,Sudah Dilayani,31/01/2026 11:17:06,Pendaftaran Semester Antara,Bagus Pramono,Farmasi,122000083
+5,Sudah Dilayani,01/02/2026 8:09:24,Pendaftaran Semester Antara,Naila Khairunisa,Biologi,122000084
+6,Sudah Dilayani,01/02/2026 10:26:48,Pendaftaran Semester Antara,Ardi Syafitri,Matematika,122000085
+7,Sudah Dilayani,01/02/2026 13:13:37,Pendaftaran Semester Antara,Latifa Mahesa,Sains Data,122000086
+8,Sudah Dilayani,02/02/2026 8:22:16,Pendaftaran Semester Antara,Fauzi Wardani,Sains Aktuaria,122000087
+9,Sudah Dilayani,02/02/2026 9:51:44,Pendaftaran Semester Antara,Karin Ramadhani,Magister Fisika,122000088
+10,Sudah Dilayani,02/02/2026 12:08:29,Pendaftaran Semester Antara,Rafsan Pranata,Sains Lingkungan Kelautan,122000089
+11,Sudah Dilayani,03/02/2026 8:18:53,Pendaftaran Semester Antara,Nazwa Anggraini,Sains Atmosfer dan Keplanetan,122000090
+12,Pending,03/02/2026 10:11:27,Pendaftaran Semester Antara,Andika Permatasari,Kimia,122000091
+13,Pending,03/02/2026 13:36:14,Pendaftaran Semester Antara,Tiyas Mukhlis,Fisika,122000092
+14,Pending,04/02/2026 8:07:35,Pendaftaran Semester Antara,Raka Saputri,Farmasi,122000093
+15,Pending,04/02/2026 9:45:58,Pendaftaran Semester Antara,Vania Rahman,Biologi,122000094
+16,Pending,04/02/2026 11:59:22,Pendaftaran Semester Antara,Fikar Adelia,Matematika,122000095
+17,Pending,05/02/2026 8:30:41,Pendaftaran Semester Antara,Ghea Prakoso,Sains Data,122000096
+18,Pending,05/02/2026 10:24:11,Pendaftaran Semester Antara,Evan Nurhidayah,Sains Aktuaria,122000097
+19,Pending,05/02/2026 13:10:56,Pendaftaran Semester Antara,Mila Fikri,Magister Fisika,122000098
+20,Pending,06/02/2026 8:47:39,Pendaftaran Semester Antara,Ridho Larasati,Sains Lingkungan Kelautan,122000099
+21,Pending,06/02/2026 11:05:18,Pendaftaran Semester Antara,Putri Alfarizi,Kimia,122000100

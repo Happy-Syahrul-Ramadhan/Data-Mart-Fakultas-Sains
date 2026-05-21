@@ -1,0 +1,2 @@
+id,status,timestamp,jenis_layanan,nama,nim,quality_flag,quality_issues,quarantine_date
+#REF!,Sudah Dilayani,28/02/2026 8:15:36,Tidak Alih Jenjang,Salman Pradipta,122000161,FAIL,Kolom 'id' harus berupa angka; ,2026-04-24 17:53:23

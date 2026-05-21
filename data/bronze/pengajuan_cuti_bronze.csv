@@ -1,0 +1,22 @@
+id,Status,Timestamp,Jenis Layanan,Nama Mahasiswa,Program Studi,NIM Mahasiswa
+1,Sudah Dilayani,07/02/2026 8:12:31,Pengajuan Cuti,Farah Halim,Fisika,122000101
+2,Pending,25/04/2026 1:29:06,Pengajuan Cuti,Syahrul,Sains Aktuaria,122450001
+3,Sudah Dilayani,07/02/2026 9:58:44,Pengajuan Cuti,Agung Kirana,Matematika,122000102
+4,Sudah Dilayani,07/02/2026 11:43:18,Pengajuan Cuti,Nabil Fauziah,Kimia,122000103
+5,Sudah Dilayani,08/02/2026 8:16:55,Pengajuan Cuti,Lisa Hakimah,Biologi,122000104
+6,Sudah Dilayani,08/02/2026 10:09:27,Pengajuan Cuti,Rama Pratami,Farmasi,122000105
+7,Pending,08/02/2026 13:22:46,Pengajuan Cuti,Ulfa Gunardi,Sains Data,122000106
+8,Pending,09/02/2026 8:05:14,Pengajuan Cuti,Rizal Ayu,Sains Lingkungan Kelautan,122000107
+9,Pending,09/02/2026 9:47:53,Pengajuan Cuti,Sania Wicaksono,Sains Atmosfer dan Keplanetan,122000108
+10,Pending,09/02/2026 12:31:08,Pengajuan Cuti,Adnan Permata,Sains Aktuaria,122000109
+11,Pending,10/02/2026 8:20:36,Pengajuan Cuti,Reva Nurazizah,Magister Fisika,122000110
+12,Pending,10/02/2026 10:26:17,Pengajuan Cuti,Hilmi Puspitasari,Fisika,122000111
+13,Pending,10/02/2026 13:11:49,Pengajuan Cuti,Nanda Saputro,,122000112
+14,Pending,11/02/2026 8:34:22,Pengajuan Cuti,Mega Firmanda,Biologi,122000113
+15,Pending,11/02/2026 9:55:31,Pengajuan Cuti,Fathan Maulida,Farmasi,122000114
+16,Pending,11/02/2026 12:48:03,Pengajuan Cuti,Selvi Rahmatullah,Sains Data,122000115
+17,Pending,12/02/2026 8:17:41,Pengajuan Cuti,Azka Pranowo,Matematika,122000116
+18,Pending,12/02/2026 10:03:12,Pengajuan Cuti,Qori Mahira,Sains Aktuaria,122000117
+19,Pending,12/02/2026 13:28:57,Pengajuan Cuti,Danis Safira,Sains Lingkungan Kelautan,122000118
+20,Pending,13/02/2026 8:40:25,Pengajuan Cuti,Farel Nugraheni,Magister Fisika,122000119
+21,Pending,13/02/2026 11:07:54,Pengajuan Cuti,Tiara Kusumaningrum,Fisika,122000120

@@ -1,0 +1,23 @@
+id,Status,Timestamp,Jenis Layanan,Nama Mahasiswa,Program Studi,NIM
+1,Sudah Dilayani,14/02/2026 8:09:42,Pengunduran Diri,Davin Pratama,Biologi,122000121
+2,Pending,25/04/2026 1:30:24,Pengunduran Diri,Syahrul,Sains Data,122450009
+3,Pending,27/04/2026 16:28:48,Pengunduran Diri,Syahrul,Farmasi,122452213
+4,Sudah Dilayani,14/02/2026 9:41:15,Pengunduran Diri,Safira Hanum,Farmasi,122000122
+5,Sudah Dilayani,14/02/2026 11:26:33,Pengunduran Diri,Naufan Rasyid,Sains Data,122000123
+6,Sudah Dilayani,15/02/2026 8:13:28,Pengunduran Diri,Rani Khumaira,Fisika,122000124
+7,Pending,15/02/2026 10:18:54,Pengunduran Diri,Fahreza Nugroho,Kimia,122000125
+8,Pending,15/02/2026 13:30:07,Pengunduran Diri,Salwa Puspita,Matematika,122000126
+9,Pending,16/02/2026 8:22:11,Pengunduran Diri,Ferdy Hidayat,,122000127
+10,Pending,16/02/2026 9:56:39,Pengunduran Diri,Meisya Rahmani,Sains Aktuaria,122000128
+11,Pending,16/02/2026 12:12:24,Pengunduran Diri,Bima Prakoso,Sains Lingkungan Kelautan,122000129
+12,Pending,17/02/2026 8:17:49,Pengunduran Diri,Anya Nurhaliza,,122000130
+13,Pending,17/02/2026 10:08:22,Pengunduran Diri,Rafsan Wijaya,Fisika,122000131
+14,Pending,17/02/2026 13:19:46,Pengunduran Diri,Keira Anggraini,Kimia,122000132
+15,Pending,18/02/2026 8:36:51,Pengunduran Diri,Gilang Ramadhan,Biologi,122000133
+16,Pending,18/02/2026 9:47:10,Pengunduran Diri,Nabila Salsabila,Farmasi,122000134
+17,Pending,18/02/2026 12:55:18,Pengunduran Diri,Hafizh Perdana,Sains Data,122000135
+18,Pending,19/02/2026 8:11:57,Pengunduran Diri,Karin Maulida,Matematika,122000136
+19,Pending,19/02/2026 10:29:35,Pengunduran Diri,Daffa Rahardian,Sains Aktuaria,122000137
+20,Pending,19/02/2026 13:03:41,Pengunduran Diri,Cindy Fadillah,Magister Fisika,122000138
+21,Pending,20/02/2026 8:43:06,Pengunduran Diri,Zidan Maulana,Sains Lingkungan Kelautan,122000139
+22,Pending,20/02/2026 11:14:52,Pengunduran Diri,Shania Permata,Farmasi,122000140

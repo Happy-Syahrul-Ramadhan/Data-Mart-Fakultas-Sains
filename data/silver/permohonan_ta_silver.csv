@@ -1,0 +1,21 @@
+id,status,timestamp,jenis_layanan,nama,program_studi,nim
+1,Sudah Dilayani,2026-01-03 08:12:14,Surat Izin Penelitian,Alya Pratama,Fisika,122000001
+2,Sudah Dilayani,2026-01-03 09:25:31,Surat Pengantar Penelitian,Raka Maharani,Matematika,122000002
+3,Sudah Dilayani,2026-01-03 10:44:09,Surat Izin Penelitian,Nadia Permata,Kimia,122000003
+4,Sudah Dilayani,2026-01-04 08:18:52,Surat Pengantar Penelitian,Fajar Anjani,Biologi,122000004
+5,Sudah Dilayani,2026-01-04 11:07:26,Surat Izin Penelitian,Intan Maulana,Farmasi,122000005
+6,Sudah Dilayani,2026-01-04 13:39:48,Surat Pengantar Penelitian,Dimas Rahma,Sains Data,122000006
+7,Sudah Dilayani,2026-01-05 08:56:10,Surat Izin Penelitian,Putri Firmansyah,Sains Lingkungan Kelautan,122000007
+8,Sudah Dilayani,2026-01-05 09:41:55,Surat Pengantar Penelitian,Rizky Kurniawan,Sains Atmosfer dan Keplanetan,122000008
+9,Sudah Dilayani,2026-01-05 12:14:33,Surat Izin Penelitian,Nabila Aisyah,Sains Aktuaria,122000009
+10,Sudah Dilayani,2026-01-06 08:05:47,Surat Pengantar Penelitian,Bagas Utami,Magister Fisika,122000010
+11,Sudah Dilayani,2026-01-06 10:52:18,Surat Izin Penelitian,Salsa Prakoso,Fisika,122000011
+12,Sudah Dilayani,2026-01-06 13:28:06,Surat Pengantar Penelitian,Aditya Khairunnisa,Kimia,122000012
+13,Sudah Dilayani,2026-01-07 08:37:29,Surat Izin Penelitian,Tiara Ramadhan,Biologi,122000013
+14,Sudah Dilayani,2026-01-07 09:48:11,Surat Pengantar Penelitian,Galih Nurhaliza,Farmasi,122000014
+15,Sudah Dilayani,2026-01-07 12:26:40,Surat Izin Penelitian,Melati Saputra,Sains Data,122000015
+16,Sudah Dilayani,2026-01-08 08:16:03,Surat Pengantar Penelitian,Ardan Wulandari,Matematika,122000016
+17,Pending,2026-01-08 10:03:22,Surat Izin Penelitian,Zahra Hidayat,Sains Aktuaria,122000017
+18,Pending,2026-01-08 13:11:57,Surat Pengantar Penelitian,Farrel Oktavia,Sains Lingkungan Kelautan,122000018
+19,Pending,2026-01-09 08:43:35,Surat Izin Penelitian,Indah Nugroho,Magister Fisika,122000019
+20,Pending,2026-01-09 11:22:14,Surat Pengantar Penelitian,Fikri Cahyani,Fisika,122000020
