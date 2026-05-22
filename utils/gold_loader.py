@@ -91,7 +91,7 @@ def load_dim_jenis_layanan(silver_path):
     insert_batch(query, data)
     logger.info(f"Jenis Layanan: {len(data)} records loaded")
 
-#Load dimension table: unique students (NIM as primary key)
+#Load dimension table: unique students (surrogate key id_mahasiswa)
 def load_dim_mahasiswa(silver_path):
     all_mahasiswa = []
     
@@ -225,8 +225,8 @@ def load_fact_layanan(silver_path):
     
     status_map = {row[1]: row[0] for row in fetch_all("SELECT id_status, status_layanan FROM datamart.dim_status_layanan")}
     layanan_map = {row[1]: row[0] for row in fetch_all("SELECT id_layanan_jenis, nama_layanan FROM datamart.dim_layanan_jenis")}
-    mahasiswa_data = fetch_all("SELECT nim FROM datamart.dim_mahasiswa")
-    mahasiswa_nims = {str(row[0]).strip(): str(row[0]).strip() for row in mahasiswa_data}
+    mahasiswa_data = fetch_all("SELECT id_mahasiswa, nim FROM datamart.dim_mahasiswa")
+    mahasiswa_nims = {str(row[1]).strip(): row[0] for row in mahasiswa_data if row[1] is not None}
     
     all_facts = []
     failed_records = 0
@@ -270,10 +270,12 @@ def load_fact_layanan(silver_path):
             pass
     
     if all_facts:
+        all_facts = list(dict.fromkeys(all_facts))
         query = """
             INSERT INTO datamart.fact_layanan_mahasiswa 
-            (nim, id_status, id_layanan_jenis, id_waktu) 
+            (id_mahasiswa, id_status, id_layanan_jenis, id_waktu) 
             VALUES (%s, %s, %s, %s)
+            ON CONFLICT DO NOTHING
         """
         insert_batch(query, all_facts)
     

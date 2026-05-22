@@ -1,3 +1,3 @@
 id,status,timestamp,jenis_layanan,nama,program_studi,nim,quality_flag,quality_issues,quarantine_date
-9,Pending,16/02/2026 8:22:11,Pengunduran Diri,Ferdy Hidayat,,122000127,FAIL,Kolom 'program_studi' kosong; ,2026-05-19 16:34:18
-12,Pending,17/02/2026 8:17:49,Pengunduran Diri,Anya Nurhaliza,,122000130,FAIL,Kolom 'program_studi' kosong; ,2026-05-19 16:34:18
+9,Pending,16/02/2026 8:22:11,Pengunduran Diri,Ferdy Hidayat,,122000127,FAIL,Kolom 'program_studi' kosong; ,2026-05-22 03:30:21
+12,Pending,17/02/2026 8:17:49,Pengunduran Diri,Anya Nurhaliza,,122000130,FAIL,Kolom 'program_studi' kosong; ,2026-05-22 03:30:21

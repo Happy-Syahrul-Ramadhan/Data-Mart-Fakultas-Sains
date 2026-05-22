@@ -18,7 +18,8 @@ CREATE TABLE IF NOT EXISTS datamart.dim_layanan_jenis (
 -- 3. Dimensi Mahasiswa
 -- Menyimpan data mahasiswa 
 CREATE TABLE IF NOT EXISTS datamart.dim_mahasiswa (
-    nim VARCHAR(50) PRIMARY KEY,
+    id_mahasiswa SERIAL PRIMARY KEY,
+    nim VARCHAR(50) NOT NULL UNIQUE,
     nama_mahasiswa VARCHAR(200) NOT NULL,
     program_studi VARCHAR(200) NOT NULL
 );
@@ -38,12 +39,12 @@ CREATE TABLE IF NOT EXISTS datamart.dim_waktu (
 
 -- Menyimpan transaksi pengajuan layanan dengan composite primary key
 CREATE TABLE IF NOT EXISTS datamart.fact_layanan_mahasiswa (
-    nim VARCHAR(50) NOT NULL,
+    id_mahasiswa INT NOT NULL,
     id_status INT NOT NULL,
     id_layanan_jenis INT NOT NULL,
     id_waktu INT NOT NULL,
-    PRIMARY KEY (nim, id_status, id_layanan_jenis, id_waktu),
-    FOREIGN KEY (nim) REFERENCES datamart.dim_mahasiswa(nim),
+    PRIMARY KEY (id_mahasiswa, id_status, id_layanan_jenis, id_waktu),
+    FOREIGN KEY (id_mahasiswa) REFERENCES datamart.dim_mahasiswa(id_mahasiswa),
     FOREIGN KEY (id_status) REFERENCES datamart.dim_status_layanan(id_status),
     FOREIGN KEY (id_layanan_jenis) REFERENCES datamart.dim_layanan_jenis(id_layanan_jenis),
     FOREIGN KEY (id_waktu) REFERENCES datamart.dim_waktu(id_waktu)
