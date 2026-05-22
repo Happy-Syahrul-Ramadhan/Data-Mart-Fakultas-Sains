@@ -3,23 +3,99 @@ id,status,timestamp,jenis_layanan,nama,program_studi,nim
 2,Sudah Dilayani,2026-01-10 09:36:42,Besaran UKT,Aurel Safitri,Farmasi,122000022
 3,Sudah Dilayani,2026-01-10 11:14:07,Besaran UKT,Reza Puspita,Sains Data,122000023
 4,Sudah Dilayani,2026-01-11 08:21:56,Besaran UKT,Anisa Gunawan,Fisika,122000024
-5,Pending,2026-04-23 00:45:46,Besaran UKT,dani,Farmasi,122340045
+5,Sudah Dilayani,2026-04-23 00:45:46,Besaran UKT,dani,Farmasi,122340045
 6,Pending,2026-04-23 00:47:34,Besaran UKT,ikbal,Sains Atmosfer dan Keplanetan,122340056
 7,Pending,2026-04-25 01:27:52,Besaran UKT,Syahrul,Sains Data,122450013
 8,Pending,2026-04-30 00:11:11,Besaran UKT,hermawan,Kimia,122459934
 9,Pending,2026-05-13 10:20:27,Besaran UKT,syahrul,Sains Data,122450013
 10,Pending,2026-05-19 22:55:52,Besaran UKT,syahrul,Sains Data,122450013
-12,Sudah Dilayani,2026-01-11 10:48:33,Besaran UKT,Yusuf Anggraini,Kimia,122000025
-13,Sudah Dilayani,2026-01-11 13:02:19,Besaran UKT,Dea Mahendra,Matematika,122000026
-14,Sudah Dilayani,2026-01-12 08:17:24,Besaran UKT,Hafiz Novitasari,Magister Fisika,122000027
-15,Sudah Dilayani,2026-01-12 09:55:41,Besaran UKT,Citra Wijaya,Sains Aktuaria,122000028
-16,Sudah Dilayani,2026-01-12 12:43:15,Besaran UKT,Rafli Kusuma,Sains Lingkungan Kelautan,122000029
-17,Sudah Dilayani,2026-01-13 08:28:37,Besaran UKT,Bella Hakim,Sains Atmosfer dan Keplanetan,122000030
-18,Sudah Dilayani,2026-01-13 10:16:12,Besaran UKT,Iqbal Mardiana,Fisika,122000031
-19,Pending,2026-01-13 13:09:44,Besaran UKT,Shafa Prasetyo,Kimia,122000032
-20,Pending,2026-01-14 08:11:53,Besaran UKT,Hanif Lestari,Biologi,122000033
-21,Pending,2026-01-14 09:47:28,Besaran UKT,Karina Santoso,Farmasi,122000034
-22,Pending,2026-01-14 11:58:31,Besaran UKT,Wahyu Pangestu,Sains Data,122000035
-23,Pending,2026-01-15 08:24:16,Besaran UKT,Amel Rahardjo,Matematika,122000036
-24,Sudah Dilayani,2026-01-15 10:21:57,Besaran UKT,Daniel Mutia,Sains Aktuaria,122000037
-25,Pending,2026-01-15 13:35:08,Besaran UKT,Salma Febrianto,Magister Fisika,122000038
+12,Pending,2026-05-22 23:35:53,Besaran UKT,syahrul,Sains Data,122450013
+13,Sudah Dilayani,2026-01-11 10:48:33,Besaran UKT,Yusuf Anggraini,Kimia,122000025
+14,Sudah Dilayani,2026-01-11 13:02:19,Besaran UKT,Dea Mahendra,Matematika,122000026
+15,Sudah Dilayani,2026-01-12 08:17:24,Besaran UKT,Hafiz Novitasari,Magister Fisika,122000027
+16,Sudah Dilayani,2026-01-12 09:55:41,Besaran UKT,Citra Wijaya,Sains Aktuaria,122000028
+17,Sudah Dilayani,2026-01-12 12:43:15,Besaran UKT,Rafli Kusuma,Sains Lingkungan Kelautan,122000029
+18,Sudah Dilayani,2026-01-13 08:28:37,Besaran UKT,Bella Hakim,Sains Atmosfer dan Keplanetan,122000030
+19,Sudah Dilayani,2026-01-13 10:16:12,Besaran UKT,Iqbal Mardiana,Fisika,122000031
+20,Pending,2026-01-13 13:09:44,Besaran UKT,Shafa Prasetyo,Kimia,122000032
+21,Pending,2026-01-14 08:11:53,Besaran UKT,Hanif Lestari,Biologi,122000033
+22,Pending,2026-01-14 09:47:28,Besaran UKT,Karina Santoso,Farmasi,122000034
+23,Pending,2026-01-14 11:58:31,Besaran UKT,Wahyu Pangestu,Sains Data,122000035
+24,Pending,2026-01-15 08:24:16,Besaran UKT,Amel Rahardjo,Matematika,122000036
+25,Sudah Dilayani,2026-01-15 10:21:57,Besaran UKT,Daniel Mutia,Sains Aktuaria,122000037
+26,Pending,2026-01-15 13:35:08,Besaran UKT,Salma Febrianto,Magister Fisika,122000038
+27,Pending,2026-05-20 08:14:25,Besaran UKT,Aditya Prakoso,Matematika,122450112
+28,Pending,2026-05-20 09:32:41,Besaran UKT,Nanda Putri,Biologi,122450113
+29,Pending,2026-05-20 10:47:18,Besaran UKT,Fauzan Rizki,Kimia,122450114
+30,Pending,2026-05-21 08:55:36,Besaran UKT,Salsabila Nur,Sains Data,122450115
+31,Pending,2026-05-21 11:20:09,Besaran UKT,Bagas Maulana,Fisika,122450116
+32,Pending,2026-05-22 09:03:44,Besaran UKT,Tiara Anggraini,Sains Aktuaria,122450117
+33,Pending,2026-05-22 13:18:27,Besaran UKT,Rendi Saputra,Sains Atmosfer dan Keplanetan,122450118
+34,Pending,2026-05-23 08:41:52,Besaran UKT,Melani Kartika,Sains Lingkungan Kelautan,122450119
+35,Pending,2026-05-23 10:29:15,Besaran UKT,Irfan Hakim,Farmasi,122450120
+36,Pending,2026-05-24 09:36:48,Besaran UKT,Dwi Lestari,Rekayasa Kehutanan,122450121
+37,Pending,2026-05-24 14:02:31,Besaran UKT,Alif Firmansyah,Teknik Geologi,122450122
+38,Pending,2026-05-25 08:27:59,Besaran UKT,Nadia Safitri,Teknik Geomatika,122450123
+39,Pending,2026-05-25 11:45:06,Besaran UKT,Yoga Pratama,Teknik Informatika,122450124
+40,Pending,2026-05-26 09:12:33,Besaran UKT,Putri Amalia,Teknik Elektro,122450125
+41,Pending,2026-05-26 13:56:40,Besaran UKT,Fikri Ramadhan,Teknik Mesin,122450126
+42,Pending,2026-05-27 08:34:21,Besaran UKT,Citra Maharani,Teknik Industri,122450127
+43,Pending,2026-05-27 10:51:17,Besaran UKT,Rangga Aditya,Teknik Kimia,122450128
+44,Pending,2026-05-28 09:22:45,Besaran UKT,Laras Permata,Teknik Fisika,122450129
+45,Pending,2026-05-28 12:38:09,Besaran UKT,Rio Nugroho,Arsitektur,122450130
+46,Pending,2026-05-29 08:16:54,Besaran UKT,Hanum Fadila,Perencanaan Wilayah dan Kota,122450131
+47,Pending,2026-05-29 14:25:36,Besaran UKT,Bima Setiawan,Matematika,122450132
+48,Pending,2026-05-30 09:44:12,Besaran UKT,Aisyah Zahra,Biologi,122450133
+49,Pending,2026-05-30 11:08:29,Besaran UKT,Ilham Akbar,Kimia,122450134
+50,Pending,2026-05-31 08:59:47,Besaran UKT,Dinda Nabila,Sains Data,122450135
+51,Pending,2026-05-31 13:31:22,Besaran UKT,Reza Fahlevi,Fisika,122450136
+52,Pending,2026-06-01 09:17:35,Besaran UKT,Karina Lestari,Sains Aktuaria,122450137
+53,Pending,2026-06-01 10:42:58,Besaran UKT,Galih Permana,Sains Atmosfer dan Keplanetan,122450138
+54,Pending,2026-06-02 08:24:19,Besaran UKT,Sinta Dewi,Sains Lingkungan Kelautan,122450139
+55,Pending,2026-06-02 12:55:43,Besaran UKT,Aldi Maulana,Farmasi,122450140
+56,Pending,2026-06-03 09:06:28,Besaran UKT,Maura Kinanti,Rekayasa Kehutanan,122450141
+57,Pending,2026-06-03 14:19:51,Besaran UKT,Fajar Alamsyah,Teknik Geologi,122450142
+58,Pending,2026-06-04 08:37:14,Besaran UKT,Vania Rahma,Teknik Geomatika,122450143
+59,Pending,2026-06-04 10:48:39,Besaran UKT,Rafi Nasution,Teknik Informatika,122450144
+60,Pending,2026-06-05 09:29:05,Besaran UKT,Alya Nuraini,Teknik Elektro,122450145
+61,Pending,2026-06-05 13:07:26,Besaran UKT,Taufik Hidayat,Teknik Mesin,122450146
+62,Pending,2026-06-06 08:53:11,Besaran UKT,Fitri Amalia,Teknik Industri,122450147
+63,Pending,2026-06-06 11:36:44,Besaran UKT,Akbar Ridwan,Teknik Kimia,122450148
+64,Pending,2026-06-07 09:41:20,Besaran UKT,Sekarsari Putri,Teknik Fisika,122450149
+65,Pending,2026-06-07 14:12:57,Besaran UKT,Bayu Nugraha,Arsitektur,122450150
+66,Pending,2026-06-08 08:28:33,Besaran UKT,Annisya Fatimah,Perencanaan Wilayah dan Kota,122450151
+67,Pending,2026-06-08 10:59:18,Besaran UKT,Hamdan Fauzi,Matematika,122450152
+68,Pending,2026-06-09 09:15:46,Besaran UKT,Monica Safira,Biologi,122450153
+69,Pending,2026-06-09 13:44:02,Besaran UKT,Wahyu Prakoso,Kimia,122450154
+70,Pending,2026-06-10 08:49:27,Besaran UKT,Felicia Anggraini,Sains Data,122450155
+71,Pending,2026-06-10 11:21:53,Besaran UKT,Tegar Sanjaya,Fisika,122450156
+72,Pending,2026-06-11 09:33:16,Besaran UKT,Raisa Mahira,Sains Aktuaria,122450157
+73,Pending,2026-06-11 14:05:38,Besaran UKT,Haikal Ramadhan,Sains Atmosfer dan Keplanetan,122450158
+74,Pending,2026-06-12 08:18:49,Besaran UKT,Meyra Lestari,Sains Lingkungan Kelautan,122450159
+75,Pending,2026-06-12 10:46:25,Besaran UKT,Agung Pratama,Farmasi,122450160
+76,Pending,2026-06-13 09:52:07,Besaran UKT,Diah Kartika,Rekayasa Kehutanan,122450161
+77,Pending,2026-06-13 12:30:41,Besaran UKT,Farhan Akbar,Teknik Geologi,122450162
+78,Pending,2026-06-14 08:39:55,Besaran UKT,Vina Marlina,Teknik Geomatika,122450163
+79,Pending,2026-06-14 13:57:12,Besaran UKT,Raka Mahendra,Teknik Informatika,122450164
+80,Pending,2026-06-15 09:24:36,Besaran UKT,Amelia Putri,Teknik Elektro,122450165
+81,Pending,2026-06-15 11:49:08,Besaran UKT,Kevin Nugraha,Teknik Mesin,122450166
+82,Pending,2026-06-16 08:31:42,Besaran UKT,Naura Fatimah,Teknik Industri,122450167
+83,Pending,2026-06-16 14:22:19,Besaran UKT,Andi Wibowo,Teknik Kimia,122450168
+84,Pending,2026-06-17 09:08:53,Besaran UKT,Intan Permata,Teknik Fisika,122450169
+85,Pending,2026-06-17 10:37:26,Besaran UKT,Naufal Aditya,Arsitektur,122450170
+86,Pending,2026-06-18 08:56:14,Besaran UKT,Riska Aprilia,Perencanaan Wilayah dan Kota,122450171
+87,Pending,2026-06-18 13:11:45,Besaran UKT,Habib Firmansyah,Matematika,122450172
+88,Pending,2026-06-19 09:43:29,Besaran UKT,Adelia Kirana,Biologi,122450173
+89,Pending,2026-06-19 11:26:58,Besaran UKT,Deni Hermawan,Kimia,122450174
+90,Pending,2026-06-20 08:20:37,Besaran UKT,Marsha Kinanti,Sains Data,122450175
+91,Pending,2026-06-20 14:03:16,Besaran UKT,Adam Rizaldi,Fisika,122450176
+92,Pending,2026-06-21 09:35:44,Besaran UKT,Tiara Novelia,Sains Aktuaria,122450177
+93,Pending,2026-06-21 10:54:21,Besaran UKT,Gilang Prasetyo,Sains Atmosfer dan Keplanetan,122450178
+94,Pending,2026-06-22 08:47:09,Besaran UKT,Syifa Maulida,Sains Lingkungan Kelautan,122450179
+95,Pending,2026-06-22 13:28:35,Besaran UKT,Indra Kurniawan,Farmasi,122450180
+96,Pending,2026-06-23 09:19:57,Besaran UKT,Elsa Novita,Rekayasa Kehutanan,122450181
+97,Pending,2026-06-23 11:42:06,Besaran UKT,Ridho Saputra,Teknik Geologi,122450182
+98,Pending,2026-06-24 08:33:48,Besaran UKT,Vania Nurhaliza,Teknik Geomatika,122450183
+99,Pending,2026-06-24 14:16:29,Besaran UKT,Akmal Fauzan,Teknik Informatika,122450184
+100,Pending,2026-06-25 09:05:13,Besaran UKT,Nabila Zahira,Teknik Elektro,122450185
+101,Pending,2026-06-25 10:39:52,Besaran UKT,Rendy Kusnadi,Teknik Mesin,122450186

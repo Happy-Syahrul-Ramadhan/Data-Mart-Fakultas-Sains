@@ -1,2 +1,0 @@
-id,status,timestamp,jenis_layanan,nama,program_studi,nim,quality_flag,quality_issues,quarantine_date
-#REF!,Sudah Dilayani,07/03/2026 8:13:47,mbkm mandiri,Azriel Maulana,Fisika,122000181,FAIL,Kolom 'id' harus berupa angka; ,2026-04-24 17:44:36

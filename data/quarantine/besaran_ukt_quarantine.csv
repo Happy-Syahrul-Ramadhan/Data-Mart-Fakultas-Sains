@@ -1,2 +1,2 @@
 id,status,timestamp,jenis_layanan,nama,program_studi,nim,quality_flag,quality_issues,quarantine_date
-11,Pending,19/05/2026 22:59:32,Besaran UKT,,Farmasi,122450013,FAIL,Kolom 'nama' kosong; ,2026-05-22 03:30:21
+11,Pending,19/05/2026 22:59:32,Besaran UKT,,Farmasi,122450013,FAIL,Kolom 'nama' kosong; ,2026-05-22 16:44:22

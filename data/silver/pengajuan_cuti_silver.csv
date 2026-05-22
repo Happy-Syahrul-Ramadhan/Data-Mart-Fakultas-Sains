@@ -19,3 +19,82 @@ id,status,timestamp,jenis_layanan,nama,program_studi,nim
 19,Pending,2026-02-12 13:28:57,Pengajuan Cuti,Danis Safira,Sains Lingkungan Kelautan,122000118
 20,Pending,2026-02-13 08:40:25,Pengajuan Cuti,Farel Nugraheni,Magister Fisika,122000119
 21,Pending,2026-02-13 11:07:54,Pengajuan Cuti,Tiara Kusumaningrum,Fisika,122000120
+22,Pending,2026-02-14 08:25:36,Pengajuan Cuti,Raka Pratama,Kimia,122000121
+23,Pending,2026-02-14 10:47:18,Pengajuan Cuti,Nabila Safitri,Biologi,122000122
+24,Pending,2026-02-14 13:12:44,Pengajuan Cuti,Fahri Maulana,Sains Data,122000123
+25,Pending,2026-02-15 08:39:21,Pengajuan Cuti,Amelia Putri,Matematika,122000124
+26,Pending,2026-02-15 11:05:52,Pengajuan Cuti,Bagas Setiawan,Sains Aktuaria,122000125
+27,Pending,2026-02-16 09:14:33,Pengajuan Cuti,Dinda Lestari,Sains Lingkungan Kelautan,122000126
+28,Pending,2026-02-16 13:28:07,Pengajuan Cuti,Reza Saputra,Magister Fisika,122000127
+29,Pending,2026-02-17 08:51:49,Pengajuan Cuti,Kartika Rahma,Fisika,122000128
+30,Pending,2026-02-17 10:36:15,Pengajuan Cuti,Ilham Hakim,Farmasi,122000129
+31,Pending,2026-02-18 09:22:58,Pengajuan Cuti,Salsa Nuraini,Sains Atmosfer dan Keplanetan,122000130
+32,Pending,2026-02-18 12:44:31,Pengajuan Cuti,Aldi Firmansyah,Kimia,122000131
+33,Pending,2026-02-19 08:17:26,Pengajuan Cuti,Mutiara Zahra,Biologi,122000132
+34,Pending,2026-02-19 11:53:40,Pengajuan Cuti,Yoga Prakoso,Sains Data,122000133
+35,Pending,2026-02-20 09:06:14,Pengajuan Cuti,Hanum Fadila,Matematika,122000134
+36,Pending,2026-02-20 13:31:55,Pengajuan Cuti,Rendy Kurniawan,Sains Aktuaria,122000135
+37,Pending,2026-02-21 08:43:29,Pengajuan Cuti,Fitri Amalia,Sains Lingkungan Kelautan,122000136
+38,Pending,2026-02-21 10:58:12,Pengajuan Cuti,Bima Aditya,Magister Fisika,122000137
+39,Pending,2026-02-22 09:35:47,Pengajuan Cuti,Alya Maharani,Fisika,122000138
+40,Pending,2026-02-22 14:09:23,Pengajuan Cuti,Wahyu Nugroho,Farmasi,122000139
+41,Pending,2026-02-23 08:29:51,Pengajuan Cuti,Citra Larasati,Sains Atmosfer dan Keplanetan,122000140
+42,Pending,2026-02-23 11:18:36,Pengajuan Cuti,Taufik Hidayat,Kimia,122000141
+43,Pending,2026-02-24 09:47:05,Pengajuan Cuti,Vania Rahmadani,Biologi,122000142
+44,Pending,2026-02-24 13:02:19,Pengajuan Cuti,Rafi Nasution,Sains Data,122000143
+45,Pending,2026-02-25 08:56:42,Pengajuan Cuti,Naura Fatimah,Matematika,122000144
+46,Pending,2026-02-25 10:41:27,Pengajuan Cuti,Akbar Ridwan,Sains Aktuaria,122000145
+47,Pending,2026-02-26 09:19:38,Pengajuan Cuti,Sekarsari Putri,Sains Lingkungan Kelautan,122000146
+48,Pending,2026-02-26 14:25:11,Pengajuan Cuti,Bayu Nugraha,Magister Fisika,122000147
+49,Pending,2026-02-27 08:33:54,Pengajuan Cuti,Annisya Fitri,Fisika,122000148
+50,Pending,2026-02-27 11:07:46,Pengajuan Cuti,Hamdan Fauzi,Farmasi,122000149
+51,Pending,2026-02-28 09:28:13,Pengajuan Cuti,Monica Safira,Sains Atmosfer dan Keplanetan,122000150
+52,Pending,2026-02-28 13:49:35,Pengajuan Cuti,Tegar Sanjaya,Kimia,122000151
+53,Pending,2026-03-01 08:45:24,Pengajuan Cuti,Raisa Mahira,Biologi,122000152
+54,Pending,2026-03-01 10:52:57,Pengajuan Cuti,Haikal Ramadhan,Sains Data,122000153
+55,Pending,2026-03-02 09:11:41,Pengajuan Cuti,Meyra Lestari,Matematika,122000154
+56,Pending,2026-03-02 14:03:28,Pengajuan Cuti,Agung Pratama,Sains Aktuaria,122000155
+57,Pending,2026-03-03 08:37:19,Pengajuan Cuti,Felicia Anggraini,Sains Lingkungan Kelautan,122000156
+58,Pending,2026-03-03 11:26:50,Pengajuan Cuti,Farhan Akbar,Magister Fisika,122000157
+59,Pending,2026-03-04 09:44:06,Pengajuan Cuti,Vina Marlina,Fisika,122000158
+60,Pending,2026-03-04 13:15:32,Pengajuan Cuti,Rio Fernando,Farmasi,122000159
+61,Pending,2026-03-05 08:22:48,Pengajuan Cuti,Diah Kartika,Sains Atmosfer dan Keplanetan,122000160
+62,Pending,2026-03-05 10:59:14,Pengajuan Cuti,Adam Rizaldi,Kimia,122000161
+63,Pending,2026-03-06 09:36:27,Pengajuan Cuti,Tiara Novelia,Biologi,122000162
+64,Pending,2026-03-06 14:18:09,Pengajuan Cuti,Gilang Prasetyo,Sains Data,122000163
+65,Pending,2026-03-07 08:49:53,Pengajuan Cuti,Syifa Maulida,Matematika,122000164
+66,Pending,2026-03-07 11:34:21,Pengajuan Cuti,Indra Kurniawan,Sains Aktuaria,122000165
+67,Pending,2026-03-08 09:07:38,Pengajuan Cuti,Elsa Novita,Sains Lingkungan Kelautan,122000166
+68,Pending,2026-03-08 13:56:45,Pengajuan Cuti,Ridho Saputra,Magister Fisika,122000167
+69,Pending,2026-03-09 08:31:17,Pengajuan Cuti,Vania Nurhaliza,Fisika,122000168
+70,Pending,2026-03-09 10:48:59,Pengajuan Cuti,Akmal Fauzan,Farmasi,122000169
+71,Pending,2026-03-10 09:25:30,Pengajuan Cuti,Nabila Zahira,Sains Atmosfer dan Keplanetan,122000170
+72,Pending,2026-03-10 14:11:06,Pengajuan Cuti,Rendy Firmansyah,Kimia,122000171
+73,Pending,2026-03-11 08:54:42,Pengajuan Cuti,Hana Nurfadila,Biologi,122000172
+74,Pending,2026-03-11 11:19:35,Pengajuan Cuti,Arif Hartono,Sains Data,122000173
+75,Pending,2026-03-12 09:42:18,Pengajuan Cuti,Shafa Anindya,Matematika,122000174
+76,Pending,2026-03-12 13:27:51,Pengajuan Cuti,Ferdiansyah Putra,Sains Aktuaria,122000175
+77,Pending,2026-03-13 08:18:09,Pengajuan Cuti,Alya Salsabila,Sains Lingkungan Kelautan,122000176
+78,Pending,2026-03-13 10:39:46,Pengajuan Cuti,Yusuf Hakim,Magister Fisika,122000177
+79,Pending,2026-03-14 09:16:33,Pengajuan Cuti,Dewi Anggraini,Fisika,122000178
+80,Pending,2026-03-14 14:05:27,Pengajuan Cuti,Adam Firdaus,Farmasi,122000179
+81,Pending,2026-03-15 08:47:12,Pengajuan Cuti,Mutiara Nabila,Sains Atmosfer dan Keplanetan,122000180
+82,Pending,2026-03-15 11:58:40,Pengajuan Cuti,Habibi Santoso,Kimia,122000181
+83,Pending,2026-03-16 09:03:25,Pengajuan Cuti,Sarah Aulia,Biologi,122000182
+84,Pending,2026-03-16 13:44:56,Pengajuan Cuti,Rizky Maulana,Sains Data,122000183
+85,Pending,2026-03-17 08:36:31,Pengajuan Cuti,Melati Kusuma,Matematika,122000184
+86,Pending,2026-03-17 10:27:18,Pengajuan Cuti,Karina Nadira,Sains Aktuaria,122000185
+87,Pending,2026-03-18 09:55:03,Pengajuan Cuti,Naufal Aditya,Sains Lingkungan Kelautan,122000186
+88,Pending,2026-03-18 14:22:49,Pengajuan Cuti,Intan Permata,Magister Fisika,122000187
+89,Pending,2026-03-19 08:41:36,Pengajuan Cuti,Andi Wibowo,Fisika,122000188
+90,Pending,2026-03-19 11:09:57,Pengajuan Cuti,Aulia Rahma,Farmasi,122000189
+91,Pending,2026-03-20 09:31:22,Pengajuan Cuti,Keisha Anindita,Sains Atmosfer dan Keplanetan,122000190
+92,Pending,2026-03-20 13:52:14,Pengajuan Cuti,Galih Permana,Kimia,122000191
+93,Pending,2026-03-21 08:24:45,Pengajuan Cuti,Riska Aprilia,Biologi,122000192
+94,Pending,2026-03-21 10:46:38,Pengajuan Cuti,Habib Firmansyah,Sains Data,122000193
+95,Pending,2026-03-22 09:12:07,Pengajuan Cuti,Adelia Kirana,Matematika,122000194
+96,Pending,2026-03-22 14:29:53,Pengajuan Cuti,Deni Hermawan,Sains Aktuaria,122000195
+97,Pending,2026-03-23 08:58:26,Pengajuan Cuti,Marsha Kinanti,Sains Lingkungan Kelautan,122000196
+98,Pending,2026-03-23 11:37:41,Pengajuan Cuti,Kevin Nugraha,Magister Fisika,122000197
+99,Pending,2026-03-24 09:20:15,Pengajuan Cuti,Putri Handayani,Fisika,122000198
+100,Pending,2026-03-25 09:20:15,Pengajuan Cuti,Fajar Alamsyah,Farmasi,122000199

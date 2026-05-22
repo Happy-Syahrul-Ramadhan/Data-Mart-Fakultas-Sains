@@ -37,13 +37,27 @@ CREATE TABLE IF NOT EXISTS datamart.dim_waktu (
     UNIQUE(tanggal, jam)
 );
 
--- Menyimpan transaksi pengajuan layanan dengan composite primary key
+-- Menyimpan transaksi pengajuan layanan dalam bentuk denormalized
 CREATE TABLE IF NOT EXISTS datamart.fact_layanan_mahasiswa (
+    id_fact_layanan SERIAL PRIMARY KEY,
     id_mahasiswa INT NOT NULL,
+    nim VARCHAR(50) NOT NULL,
+    nama_mahasiswa VARCHAR(200) NOT NULL,
+    program_studi VARCHAR(200) NOT NULL,
     id_status INT NOT NULL,
+    status_layanan VARCHAR(50) NOT NULL,
     id_layanan_jenis INT NOT NULL,
+    nama_layanan VARCHAR(100) NOT NULL,
     id_waktu INT NOT NULL,
-    PRIMARY KEY (id_mahasiswa, id_status, id_layanan_jenis, id_waktu),
+    tanggal DATE NOT NULL,
+    jam TIME,
+    hari VARCHAR(20),
+    bulan VARCHAR(20),
+    tahun INT,
+    hour INT,
+    total_layanan_masuk INT DEFAULT 1,
+    total_layanan_pending INT DEFAULT 0,
+    total_layanan_sudah_dilayani INT DEFAULT 0,
     FOREIGN KEY (id_mahasiswa) REFERENCES datamart.dim_mahasiswa(id_mahasiswa),
     FOREIGN KEY (id_status) REFERENCES datamart.dim_status_layanan(id_status),
     FOREIGN KEY (id_layanan_jenis) REFERENCES datamart.dim_layanan_jenis(id_layanan_jenis),

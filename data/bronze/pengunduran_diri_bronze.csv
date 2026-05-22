@@ -21,3 +21,81 @@ id,Status,Timestamp,Jenis Layanan,Nama Mahasiswa,Program Studi,NIM
 20,Pending,19/02/2026 13:03:41,Pengunduran Diri,Cindy Fadillah,Magister Fisika,122000138
 21,Pending,20/02/2026 8:43:06,Pengunduran Diri,Zidan Maulana,Sains Lingkungan Kelautan,122000139
 22,Pending,20/02/2026 11:14:52,Pengunduran Diri,Shania Permata,Farmasi,122000140
+23,Pending,21/02/2026 8:35:19,Pengunduran Diri,Naufal Pratama,Sains Data,122000141
+24,Pending,21/02/2026 11:27:44,Pengunduran Diri,Rani Anggraini,Matematika,122000142
+25,Pending,22/02/2026 9:12:06,Pengunduran Diri,Fahmi Saputra,Fisika,122000143
+26,Pending,22/02/2026 13:48:31,Pengunduran Diri,Amelia Putri,Kimia,122000144
+27,Pending,23/02/2026 8:56:22,Pengunduran Diri,Bagas Firmansyah,Biologi,122000145
+28,Pending,23/02/2026 10:39:57,Pengunduran Diri,Nadya Salsabila,Sains Aktuaria,122000146
+29,Pending,24/02/2026 9:25:14,Pengunduran Diri,Ilham Nugroho,Magister Fisika,122000147
+30,Pending,24/02/2026 14:03:45,Pengunduran Diri,Kartika Lestari,Sains Lingkungan Kelautan,122000148
+31,Pending,25/02/2026 8:47:33,Pengunduran Diri,Reza Maulana,Farmasi,122000149
+32,Pending,25/02/2026 11:18:09,Pengunduran Diri,Dinda Rahma,Sains Atmosfer dan Keplanetan,122000150
+33,Pending,26/02/2026 9:06:51,Pengunduran Diri,Aldi Setiawan,Sains Data,122000151
+34,Pending,26/02/2026 13:31:28,Pengunduran Diri,Farah Nabila,Matematika,122000152
+35,Pending,27/02/2026 8:22:40,Pengunduran Diri,Raka Aditya,Fisika,122000153
+36,Pending,27/02/2026 10:55:16,Pengunduran Diri,Mutiara Zahra,Kimia,122000154
+37,Pending,28/02/2026 9:43:07,Pengunduran Diri,Fikri Hidayat,Biologi,122000155
+38,Pending,28/02/2026 14:21:59,Pengunduran Diri,Sinta Maharani,Sains Aktuaria,122000156
+39,Pending,01/03/2026 8:31:25,Pengunduran Diri,Rendy Kurniawan,Magister Fisika,122000157
+40,Pending,01/03/2026 11:46:38,Pengunduran Diri,Putri Handayani,Sains Lingkungan Kelautan,122000158
+41,Pending,02/03/2026 9:19:52,Pengunduran Diri,Yusuf Hakim,Farmasi,122000159
+42,Pending,02/03/2026 13:08:14,Pengunduran Diri,Alya Nuraini,Sains Atmosfer dan Keplanetan,122000160
+43,Pending,03/03/2026 8:44:27,Pengunduran Diri,Bima Prakoso,Sains Data,122000161
+44,Pending,03/03/2026 10:37:55,Pengunduran Diri,Fitri Amalia,Matematika,122000162
+45,Pending,04/03/2026 9:28:11,Pengunduran Diri,Hamdan Fauzi,Fisika,122000163
+46,Pending,04/03/2026 14:15:36,Pengunduran Diri,Naura Fatimah,Kimia,122000164
+47,Pending,05/03/2026 8:53:48,Pengunduran Diri,Bayu Nugraha,Biologi,122000165
+48,Pending,05/03/2026 11:09:23,Pengunduran Diri,Hanum Fadila,Sains Aktuaria,122000166
+49,Pending,06/03/2026 9:34:17,Pengunduran Diri,Tegar Sanjaya,Magister Fisika,122000167
+50,Pending,06/03/2026 13:52:41,Pengunduran Diri,Raisa Mahira,Sains Lingkungan Kelautan,122000168
+51,Pending,07/03/2026 8:26:59,Pengunduran Diri,Wahyu Prakoso,Farmasi,122000169
+52,Pending,07/03/2026 10:41:32,Pengunduran Diri,Monica Safira,Sains Atmosfer dan Keplanetan,122000170
+53,Pending,08/03/2026 9:15:08,Pengunduran Diri,Agung Pratama,Sains Data,122000171
+54,Pending,08/03/2026 14:06:47,Pengunduran Diri,Felicia Anggraini,Matematika,122000172
+55,Pending,09/03/2026 8:39:21,Pengunduran Diri,Arif Hartono,Fisika,122000173
+56,Pending,09/03/2026 11:22:54,Pengunduran Diri,Hana Nurfadila,Kimia,122000174
+57,Pending,10/03/2026 9:07:36,Pengunduran Diri,Haikal Ramadhan,Biologi,122000175
+58,Pending,10/03/2026 13:44:19,Pengunduran Diri,Meyra Lestari,Sains Aktuaria,122000176
+59,Pending,11/03/2026 8:58:03,Pengunduran Diri,Rio Fernando,Magister Fisika,122000177
+60,Pending,11/03/2026 10:34:28,Pengunduran Diri,Vina Marlina,Sains Lingkungan Kelautan,122000178
+61,Pending,12/03/2026 9:41:15,Pengunduran Diri,Adam Rizaldi,Farmasi,122000179
+62,Pending,12/03/2026 14:12:50,Pengunduran Diri,Tiara Novelia,Sains Atmosfer dan Keplanetan,122000180
+63,Pending,13/03/2026 8:29:44,Pengunduran Diri,Gilang Prasetyo,Sains Data,122000181
+64,Pending,13/03/2026 11:57:06,Pengunduran Diri,Syifa Maulida,Matematika,122000182
+65,Pending,14/03/2026 9:23:31,Pengunduran Diri,Indra Kurniawan,Fisika,122000183
+66,Pending,14/03/2026 13:36:25,Pengunduran Diri,Elsa Novita,Kimia,122000184
+67,Pending,15/03/2026 8:45:12,Pengunduran Diri,Ridho Saputra,Biologi,122000185
+68,Pending,15/03/2026 10:28:49,Pengunduran Diri,Vania Nurhaliza,Sains Aktuaria,122000186
+69,Pending,16/03/2026 9:16:37,Pengunduran Diri,Akmal Fauzan,Magister Fisika,122000187
+70,Pending,16/03/2026 14:09:03,Pengunduran Diri,Nabila Zahira,Sains Lingkungan Kelautan,122000188
+71,Pending,17/03/2026 8:37:58,Pengunduran Diri,Rendy Firmansyah,Farmasi,122000189
+72,Pending,17/03/2026 11:43:26,Pengunduran Diri,Shafa Anindya,Sains Atmosfer dan Keplanetan,122000190
+73,Pending,18/03/2026 9:52:41,Pengunduran Diri,Ferdiansyah Putra,Sains Data,122000191
+74,Pending,18/03/2026 13:18:34,Pengunduran Diri,Alya Salsabila,Matematika,122000192
+75,Pending,19/03/2026 8:21:07,Pengunduran Diri,Dewi Anggraini,Fisika,122000193
+76,Pending,19/03/2026 10:59:46,Pengunduran Diri,Adam Firdaus,Kimia,122000194
+77,Pending,20/03/2026 9:33:20,Pengunduran Diri,Mutiara Nabila,Biologi,122000195
+78,Pending,20/03/2026 14:24:11,Pengunduran Diri,Habibi Santoso,Sains Aktuaria,122000196
+79,Pending,21/03/2026 8:48:36,Pengunduran Diri,Sarah Aulia,Magister Fisika,122000197
+80,Pending,21/03/2026 11:14:57,Pengunduran Diri,Rizky Maulana,Sains Lingkungan Kelautan,122000198
+81,Pending,22/03/2026 9:05:49,Pengunduran Diri,Melati Kusuma,Farmasi,122000199
+82,Pending,22/03/2026 13:42:23,Pengunduran Diri,Karina Nadira,Sains Atmosfer dan Keplanetan,122000200
+83,Pending,23/03/2026 8:32:18,Pengunduran Diri,Farhan Akbar,Sains Data,122000201
+84,Pending,23/03/2026 10:46:52,Pengunduran Diri,Citra Larasati,Matematika,122000202
+85,Pending,24/03/2026 9:27:39,Pengunduran Diri,Rafi Nasution,Fisika,122000203
+86,Pending,24/03/2026 14:07:15,Pengunduran Diri,Annisya Putri,Kimia,122000204
+87,Pending,25/03/2026 8:54:28,Pengunduran Diri,Kevin Nugraha,Biologi,122000205
+88,Pending,25/03/2026 11:31:06,Pengunduran Diri,Sekarsari Putri,Sains Aktuaria,122000206
+89,Pending,26/03/2026 9:18:44,Pengunduran Diri,Taufik Hidayat,Magister Fisika,122000207
+90,Pending,26/03/2026 13:55:32,Pengunduran Diri,Marsha Kinanti,Sains Lingkungan Kelautan,122000208
+91,Pending,27/03/2026 8:43:17,Pengunduran Diri,Deni Hermawan,Farmasi,122000209
+92,Pending,27/03/2026 10:25:59,Pengunduran Diri,Adelia Kirana,Sains Atmosfer dan Keplanetan,122000210
+93,Pending,28/03/2026 9:36:21,Pengunduran Diri,Habib Firmansyah,Sains Data,122000211
+94,Pending,28/03/2026 14:18:40,Pengunduran Diri,Riska Aprilia,Matematika,122000212
+95,Pending,29/03/2026 8:57:13,Pengunduran Diri,Naufal Aditya,Fisika,122000213
+96,Pending,29/03/2026 11:08:35,Pengunduran Diri,Intan Permata,Kimia,122000214
+97,Pending,30/03/2026 9:44:52,Pengunduran Diri,Andi Wibowo,Biologi,122000215
+98,Pending,30/03/2026 13:29:18,Pengunduran Diri,Aulia Rahma,Sains Aktuaria,122000216
+99,Pending,31/03/2026 8:38:46,Pengunduran Diri,Keisha Anindita,Magister Fisika,122000217
+100,Pending,31/03/2026 10:53:27,Pengunduran Diri,Galih Permana,Sains Lingkungan Kelautan,122000218

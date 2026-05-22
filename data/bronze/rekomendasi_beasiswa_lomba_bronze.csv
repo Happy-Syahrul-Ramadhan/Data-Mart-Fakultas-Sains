@@ -20,3 +20,82 @@ id,Status,Timestamp,Jenis Layanan,Nama Mahasiswa,Program Studi,NIM Mahasiswa
 19,Pending,26/02/2026 13:21:11,Rekomendasi Beasiswa atau Lomba,Farhan Mahesa,Magister Fisika,122000158
 20,Pending,27/02/2026 8:41:57,Rekomendasi Beasiswa atau Lomba,Della Anggraini,Sains Lingkungan Kelautan,122000159
 21,Pending,27/02/2026 11:09:30,Rekomendasi Beasiswa atau Lomba,Ihsan Rahmawan,Kimia,122000160
+22,Pending,28/02/2026 8:34:12,Rekomendasi Beasiswa atau Lomba,Raka Pratama,Sains Data,122000161
+23,Pending,28/02/2026 10:56:47,Rekomendasi Beasiswa atau Lomba,Dinda Lestari,Matematika,122000162
+24,Pending,01/03/2026 9:12:25,Rekomendasi Beasiswa atau Lomba,Aldi Firmansyah,Sains Aktuaria,122000163
+25,Pending,01/03/2026 13:28:39,Rekomendasi Beasiswa atau Lomba,Mutiara Zahra,Magister Fisika,122000164
+26,Pending,02/03/2026 8:47:51,Rekomendasi Beasiswa atau Lomba,Yoga Prakoso,Sains Lingkungan Kelautan,122000165
+27,Pending,02/03/2026 11:05:18,Rekomendasi Beasiswa atau Lomba,Hanum Fadila,Kimia,122000166
+28,Pending,03/03/2026 9:23:44,Rekomendasi Beasiswa atau Lomba,Rendy Kurniawan,Biologi,122000167
+29,Pending,03/03/2026 14:01:06,Rekomendasi Beasiswa atau Lomba,Fitri Amalia,Farmasi,122000168
+30,Pending,04/03/2026 8:39:27,Rekomendasi Beasiswa atau Lomba,Bima Aditya,Fisika,122000169
+31,Pending,04/03/2026 10:52:13,Rekomendasi Beasiswa atau Lomba,Alya Maharani,Sains Atmosfer dan Keplanetan,122000170
+32,Pending,05/03/2026 9:16:58,Rekomendasi Beasiswa atau Lomba,Wahyu Nugroho,Sains Data,122000171
+33,Pending,05/03/2026 13:35:21,Rekomendasi Beasiswa atau Lomba,Citra Larasati,Matematika,122000172
+34,Pending,06/03/2026 8:28:46,Rekomendasi Beasiswa atau Lomba,Taufik Hidayat,Sains Aktuaria,122000173
+35,Pending,06/03/2026 11:44:09,Rekomendasi Beasiswa atau Lomba,Vania Rahmadani,Magister Fisika,122000174
+36,Pending,07/03/2026 9:03:37,Rekomendasi Beasiswa atau Lomba,Rafi Nasution,Sains Lingkungan Kelautan,122000175
+37,Pending,07/03/2026 14:19:52,Rekomendasi Beasiswa atau Lomba,Naura Fatimah,Kimia,122000176
+38,Pending,08/03/2026 8:51:14,Rekomendasi Beasiswa atau Lomba,Akbar Ridwan,Biologi,122000177
+39,Pending,08/03/2026 10:37:45,Rekomendasi Beasiswa atau Lomba,Sekarsari Putri,Farmasi,122000178
+40,Pending,09/03/2026 9:29:33,Rekomendasi Beasiswa atau Lomba,Bayu Nugraha,Fisika,122000179
+41,Pending,09/03/2026 13:08:16,Rekomendasi Beasiswa atau Lomba,Annisya Fitri,Sains Atmosfer dan Keplanetan,122000180
+42,Pending,10/03/2026 8:42:59,Rekomendasi Beasiswa atau Lomba,Hamdan Fauzi,Sains Data,122000181
+43,Pending,10/03/2026 11:17:24,Rekomendasi Beasiswa atau Lomba,Monica Safira,Matematika,122000182
+44,Pending,11/03/2026 9:46:05,Rekomendasi Beasiswa atau Lomba,Tegar Sanjaya,Sains Aktuaria,122000183
+45,Pending,11/03/2026 14:12:38,Rekomendasi Beasiswa atau Lomba,Raisa Mahira,Magister Fisika,122000184
+46,Pending,12/03/2026 8:55:41,Rekomendasi Beasiswa atau Lomba,Haikal Ramadhan,Sains Lingkungan Kelautan,122000185
+47,Pending,12/03/2026 10:49:26,Rekomendasi Beasiswa atau Lomba,Meyra Lestari,Kimia,122000186
+48,Pending,13/03/2026 9:21:57,Rekomendasi Beasiswa atau Lomba,Agung Pratama,Biologi,122000187
+49,Pending,13/03/2026 13:43:14,Rekomendasi Beasiswa atau Lomba,Felicia Anggraini,Farmasi,122000188
+50,Pending,14/03/2026 8:36:20,Rekomendasi Beasiswa atau Lomba,Farhan Akbar,Fisika,122000189
+51,Pending,14/03/2026 11:09:48,Rekomendasi Beasiswa atau Lomba,Vina Marlina,Sains Atmosfer dan Keplanetan,122000190
+52,Pending,15/03/2026 9:34:11,Rekomendasi Beasiswa atau Lomba,Rio Fernando,Sains Data,122000191
+53,Pending,15/03/2026 14:05:29,Rekomendasi Beasiswa atau Lomba,Diah Kartika,Matematika,122000192
+54,Pending,16/03/2026 8:24:53,Rekomendasi Beasiswa atau Lomba,Adam Rizaldi,Sains Aktuaria,122000193
+55,Pending,16/03/2026 10:58:37,Rekomendasi Beasiswa atau Lomba,Tiara Novelia,Magister Fisika,122000194
+56,Pending,17/03/2026 9:07:42,Rekomendasi Beasiswa atau Lomba,Gilang Prasetyo,Sains Lingkungan Kelautan,122000195
+57,Pending,17/03/2026 13:31:56,Rekomendasi Beasiswa atau Lomba,Syifa Maulida,Kimia,122000196
+58,Pending,18/03/2026 8:49:18,Rekomendasi Beasiswa atau Lomba,Indra Kurniawan,Biologi,122000197
+59,Pending,18/03/2026 11:26:40,Rekomendasi Beasiswa atau Lomba,Elsa Novita,Farmasi,122000198
+60,Pending,19/03/2026 9:55:03,Rekomendasi Beasiswa atau Lomba,Ridho Saputra,Fisika,122000199
+61,Pending,19/03/2026 14:22:17,Rekomendasi Beasiswa atau Lomba,Vania Nurhaliza,Sains Atmosfer dan Keplanetan,122000200
+62,Pending,20/03/2026 8:41:36,Rekomendasi Beasiswa atau Lomba,Akmal Fauzan,Sains Data,122000201
+63,Pending,20/03/2026 10:33:59,Rekomendasi Beasiswa atau Lomba,Nabila Zahira,Matematika,122000202
+64,Pending,21/03/2026 9:18:27,Rekomendasi Beasiswa atau Lomba,Rendy Firmansyah,Sains Aktuaria,122000203
+65,Pending,21/03/2026 13:57:44,Rekomendasi Beasiswa atau Lomba,Hana Nurfadila,Magister Fisika,122000204
+66,Pending,22/03/2026 8:32:08,Rekomendasi Beasiswa atau Lomba,Arif Hartono,Sains Lingkungan Kelautan,122000205
+67,Pending,22/03/2026 11:48:31,Rekomendasi Beasiswa atau Lomba,Shafa Anindya,Kimia,122000206
+68,Pending,23/03/2026 9:25:16,Rekomendasi Beasiswa atau Lomba,Ferdiansyah Putra,Biologi,122000207
+69,Pending,23/03/2026 14:09:55,Rekomendasi Beasiswa atau Lomba,Alya Salsabila,Farmasi,122000208
+70,Pending,24/03/2026 8:57:22,Rekomendasi Beasiswa atau Lomba,Yusuf Hakim,Fisika,122000209
+71,Pending,24/03/2026 10:46:13,Rekomendasi Beasiswa atau Lomba,Dewi Anggraini,Sains Atmosfer dan Keplanetan,122000210
+72,Pending,25/03/2026 9:38:49,Rekomendasi Beasiswa atau Lomba,Adam Firdaus,Sains Data,122000211
+73,Pending,25/03/2026 13:20:34,Rekomendasi Beasiswa atau Lomba,Mutiara Nabila,Matematika,122000212
+74,Pending,26/03/2026 8:29:07,Rekomendasi Beasiswa atau Lomba,Habibi Santoso,Sains Aktuaria,122000213
+75,Pending,26/03/2026 11:13:52,Rekomendasi Beasiswa atau Lomba,Sarah Aulia,Magister Fisika,122000214
+76,Pending,27/03/2026 9:51:25,Rekomendasi Beasiswa atau Lomba,Rizky Maulana,Sains Lingkungan Kelautan,122000215
+77,Pending,27/03/2026 14:03:46,Rekomendasi Beasiswa atau Lomba,Melati Kusuma,Kimia,122000216
+78,Pending,28/03/2026 8:44:19,Rekomendasi Beasiswa atau Lomba,Karina Nadira,Biologi,122000217
+79,Pending,28/03/2026 10:27:58,Rekomendasi Beasiswa atau Lomba,Naufal Aditya,Farmasi,122000218
+80,Pending,29/03/2026 9:15:36,Rekomendasi Beasiswa atau Lomba,Intan Permata,Fisika,122000219
+81,Pending,29/03/2026 13:49:21,Rekomendasi Beasiswa atau Lomba,Andi Wibowo,Sains Atmosfer dan Keplanetan,122000220
+82,Pending,30/03/2026 8:53:47,Rekomendasi Beasiswa atau Lomba,Aulia Rahma,Sains Data,122000221
+83,Pending,30/03/2026 11:34:05,Rekomendasi Beasiswa atau Lomba,Keisha Anindita,Matematika,122000222
+84,Pending,31/03/2026 9:06:18,Rekomendasi Beasiswa atau Lomba,Galih Permana,Sains Aktuaria,122000223
+85,Pending,31/03/2026 14:17:39,Rekomendasi Beasiswa atau Lomba,Riska Aprilia,Magister Fisika,122000224
+86,Pending,01/04/2026 8:38:24,Rekomendasi Beasiswa atau Lomba,Habib Firmansyah,Sains Lingkungan Kelautan,122000225
+87,Pending,01/04/2026 10:59:42,Rekomendasi Beasiswa atau Lomba,Adelia Kirana,Kimia,122000226
+88,Pending,02/04/2026 9:32:51,Rekomendasi Beasiswa atau Lomba,Deni Hermawan,Biologi,122000227
+89,Pending,02/04/2026 13:41:07,Rekomendasi Beasiswa atau Lomba,Marsha Kinanti,Farmasi,122000228
+90,Pending,03/04/2026 8:26:55,Rekomendasi Beasiswa atau Lomba,Kevin Nugraha,Fisika,122000229
+91,Pending,03/04/2026 11:08:33,Rekomendasi Beasiswa atau Lomba,Putri Handayani,Sains Atmosfer dan Keplanetan,122000230
+92,Pending,04/04/2026 9:44:28,Rekomendasi Beasiswa atau Lomba,Fajar Alamsyah,Sains Data,122000231
+93,Pending,04/04/2026 14:11:19,Rekomendasi Beasiswa atau Lomba,Rangga Saputra,Matematika,122000232
+94,Pending,05/04/2026 8:48:02,Rekomendasi Beasiswa atau Lomba,Salsa Amelia,Sains Aktuaria,122000233
+95,Pending,05/04/2026 10:36:47,Rekomendasi Beasiswa atau Lomba,Ilham Ramadhan,Magister Fisika,122000234
+96,Pending,06/04/2026 9:27:15,Rekomendasi Beasiswa atau Lomba,Nadia Safitri,Sains Lingkungan Kelautan,122000235
+97,Pending,06/04/2026 13:58:26,Rekomendasi Beasiswa atau Lomba,Bagas Maulana,Kimia,122000236
+98,Pending,07/04/2026 8:31:54,Rekomendasi Beasiswa atau Lomba,Amira Zahra,Biologi,122000237
+99,Pending,07/04/2026 11:22:40,Rekomendasi Beasiswa atau Lomba,Reza Mahendra,Farmasi,122000238
+100,Pending,08/04/2026 12:22:40,Rekomendasi Beasiswa atau Lomba,Laras Wulandari,Fisika,122000239

@@ -36,9 +36,6 @@ def init_schema():
         cursor = conn.cursor()
         
         try:
-            cursor.execute("DROP SCHEMA IF EXISTS datamart CASCADE")
-            conn.commit()
-            
             statements = sql_script.split(';')
             for statement in statements:
                 lines = [l.strip() for l in statement.split('\n') if l.strip() and not l.strip().startswith('--')]
@@ -203,83 +200,112 @@ def load_dim_waktu(silver_path):
     logger.info(f"Waktu: {len(data)} records loaded")
 
 
-# HELPER FUNCTIONS
-#Retrieve time dimension ID from timestamp
-def get_waktu_id(timestamp):
-    try:
-        dt = pd.to_datetime(timestamp)
-        result = fetch_all(
-            "SELECT id_waktu FROM datamart.dim_waktu WHERE tanggal = %s AND jam = %s LIMIT 1",
-            (dt.date(), dt.time())  
-        )
-        return result[0][0] if result else None
-    except:
-        return None
-
-
-
 # FACT TABLE LOADING
 #Load fact table: service transactions for students
 def load_fact_layanan(silver_path):
-    execute_query("TRUNCATE TABLE datamart.fact_layanan_mahasiswa")
-    
-    status_map = {row[1]: row[0] for row in fetch_all("SELECT id_status, status_layanan FROM datamart.dim_status_layanan")}
-    layanan_map = {row[1]: row[0] for row in fetch_all("SELECT id_layanan_jenis, nama_layanan FROM datamart.dim_layanan_jenis")}
-    mahasiswa_data = fetch_all("SELECT id_mahasiswa, nim FROM datamart.dim_mahasiswa")
-    mahasiswa_nims = {str(row[1]).strip(): row[0] for row in mahasiswa_data if row[1] is not None}
-    
-    all_facts = []
-    failed_records = 0
-    
+    execute_query("TRUNCATE TABLE datamart.fact_layanan_mahasiswa RESTART IDENTITY")
+
+    def get_first_value(row, columns, keywords):
+        for col in columns:
+            if any(keyword in col for keyword in keywords):
+                value = row.get(col, '')
+                if pd.notna(value) and str(value).strip() != '':
+                    return str(value).strip()
+        return ''
+
+    source_rows = []
+
     for file in SILVER_FILES:
         try:
             df = pd.read_csv(f"{silver_path}/{file}")
             df.columns = df.columns.str.lower().str.replace(' ', '_')
-            
-            for idx, row in df.iterrows():
-                try:
-                    nim = ''
-                    status = ''
-                    jenis = ''
-                    
-                    for col in df.columns:
-                        if 'nim' in col and not nim:
-                            nim = str(row.get(col, '')).strip()
-                        elif col == 'status':
-                            status = str(row.get(col, '')).strip()
-                        elif 'jenis' in col and not jenis:
-                            jenis = str(row.get(col, '')).strip()
-                        elif col == 'timestamp' and 'timestamp' not in locals():
-                            timestamp = row.get(col, '')
-                    
-                    nim_valid = mahasiswa_nims.get(nim)
-                    id_status = status_map.get(status)
-                    id_jenis = layanan_map.get(jenis)
-                    id_waktu = get_waktu_id(str(row.get('timestamp', '')))
-                    
-                    if all([nim_valid, id_status, id_jenis, id_waktu]):
-                        all_facts.append((nim_valid, id_status, id_jenis, id_waktu))
-                    else:
-                        failed_records += 1
-                        
-                except Exception:
-                    failed_records += 1
-                    continue
-                    
-        except Exception:
-            pass
-    
-    if all_facts:
-        all_facts = list(dict.fromkeys(all_facts))
-        query = """
-            INSERT INTO datamart.fact_layanan_mahasiswa 
-            (id_mahasiswa, id_status, id_layanan_jenis, id_waktu) 
-            VALUES (%s, %s, %s, %s)
-            ON CONFLICT DO NOTHING
-        """
-        insert_batch(query, all_facts)
-    
-    logger.info(f"Fact Layanan: {len(all_facts)} records inserted")
+
+            for _, row in df.iterrows():
+                source_rows.append({
+                    'nim': get_first_value(row, df.columns, ['nim']),
+                    'nama_mahasiswa': get_first_value(row, df.columns, ['nama']),
+                    'program_studi': get_first_value(row, df.columns, ['program', 'prodi']),
+                    'status_layanan': get_first_value(row, df.columns, ['status']),
+                    'nama_layanan': get_first_value(row, df.columns, ['jenis']),
+                    'timestamp': get_first_value(row, df.columns, ['timestamp'])
+                })
+        except Exception as e:
+            logger.warning(f"Skip file {file}: {e}")
+
+    if not source_rows:
+        logger.warning("No fact source rows found")
+        return
+
+    fact_df = pd.DataFrame(source_rows)
+    fact_df = fact_df[fact_df['nim'] != '']
+    fact_df = fact_df[fact_df['status_layanan'] != '']
+    fact_df = fact_df[fact_df['nama_layanan'] != '']
+    fact_df = fact_df[fact_df['timestamp'] != '']
+
+    if fact_df.empty:
+        logger.warning("No valid fact rows after source cleanup")
+        return
+
+    fact_df['timestamp'] = pd.to_datetime(fact_df['timestamp'], dayfirst=True, format='mixed', errors='coerce')
+    fact_df = fact_df.dropna(subset=['timestamp'])
+    fact_df['tanggal'] = fact_df['timestamp'].dt.date
+    fact_df['jam'] = fact_df['timestamp'].dt.time
+
+    mahasiswa_df = pd.DataFrame(
+        fetch_all("SELECT id_mahasiswa, nim FROM datamart.dim_mahasiswa"),
+        columns=['id_mahasiswa', 'nim']
+    )
+
+    fact_df = fact_df.merge(mahasiswa_df, on='nim', how='inner')
+    jenis_df = pd.DataFrame(
+        fetch_all("SELECT id_layanan_jenis, nama_layanan FROM datamart.dim_layanan_jenis"),
+        columns=['id_layanan_jenis', 'nama_layanan']
+    )
+    status_df = pd.DataFrame(
+        fetch_all("SELECT id_status, status_layanan FROM datamart.dim_status_layanan"),
+        columns=['id_status', 'status_layanan']
+    )
+    waktu_df = pd.DataFrame(
+        fetch_all("SELECT id_waktu, tanggal, jam, hari, bulan, tahun, hour FROM datamart.dim_waktu"),
+        columns=['id_waktu', 'tanggal', 'jam', 'hari', 'bulan', 'tahun', 'hour']
+    )
+
+    fact_df = fact_df.merge(jenis_df, on='nama_layanan', how='inner')
+    fact_df = fact_df.merge(status_df, on='status_layanan', how='inner')
+    fact_df = fact_df.merge(waktu_df, on=['tanggal', 'jam'], how='inner')
+
+    if fact_df.empty:
+        logger.warning("No rows matched dimension joins for fact load")
+        return
+
+    fact_df['total_layanan_masuk'] = 1
+    fact_df['total_layanan_pending'] = fact_df['status_layanan'].apply(lambda value: 1 if value == 'Pending' else 0)
+    fact_df['total_layanan_sudah_dilayani'] = fact_df['status_layanan'].apply(lambda value: 1 if value == 'Sudah Dilayani' else 0)
+
+    fact_df = fact_df.drop_duplicates(subset=['nim', 'status_layanan', 'nama_layanan', 'tanggal', 'jam'])
+
+    fact_rows = list(
+        fact_df[[
+            'id_mahasiswa', 'nim', 'nama_mahasiswa', 'program_studi',
+            'id_status', 'status_layanan',
+            'id_layanan_jenis', 'nama_layanan',
+            'id_waktu', 'tanggal', 'jam', 'hari', 'bulan', 'tahun', 'hour',
+            'total_layanan_masuk', 'total_layanan_pending', 'total_layanan_sudah_dilayani'
+        ]].itertuples(index=False, name=None)
+    )
+
+    query = """
+        INSERT INTO datamart.fact_layanan_mahasiswa (
+            id_mahasiswa, nim, nama_mahasiswa, program_studi,
+            id_status, status_layanan,
+            id_layanan_jenis, nama_layanan,
+            id_waktu, tanggal, jam, hari, bulan, tahun, hour,
+            total_layanan_masuk, total_layanan_pending, total_layanan_sudah_dilayani
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    """
+    insert_batch(query, fact_rows)
+
+    logger.info(f"Fact Layanan: {len(fact_rows)} records inserted")
 
 
 

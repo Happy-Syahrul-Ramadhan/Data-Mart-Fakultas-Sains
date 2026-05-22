@@ -19,3 +19,83 @@ id,status,timestamp,jenis_layanan,nama,program_studi,nim
 18,Pending,2026-01-08 13:11:57,Surat Pengantar Penelitian,Farrel Oktavia,Sains Lingkungan Kelautan,122000018
 19,Pending,2026-01-09 08:43:35,Surat Izin Penelitian,Indah Nugroho,Magister Fisika,122000019
 20,Pending,2026-01-09 11:22:14,Surat Pengantar Penelitian,Fikri Cahyani,Fisika,122000020
+21,Pending,2026-01-10 09:15:42,Surat Izin Penelitian,Arya Pratama,Matematika,122000021
+22,Pending,2026-01-10 13:27:18,Surat Pengantar Penelitian,Nabila Safitri,Biologi,122000022
+23,Pending,2026-01-11 08:44:51,Surat Izin Penelitian,Rizky Maulana,Kimia,122000023
+24,Pending,2026-01-11 10:36:09,Surat Pengantar Penelitian,Salsa Amelia,Sains Data,122000024
+25,Pending,2026-01-12 09:02:33,Surat Izin Penelitian,Dimas Firmansyah,Fisika,122000025
+26,Pending,2026-01-12 11:48:27,Surat Pengantar Penelitian,Renata Putri,Sains Aktuaria,122000026
+27,Pending,2026-01-13 08:21:45,Surat Izin Penelitian,Bagus Setiawan,Sains Lingkungan Kelautan,122000027
+28,Pending,2026-01-13 14:06:19,Surat Pengantar Penelitian,Melati Kusuma,Magister Fisika,122000028
+29,Pending,2026-01-14 09:39:12,Surat Izin Penelitian,Ilham Ramadhan,Matematika,122000029
+30,Pending,2026-01-14 12:55:36,Surat Pengantar Penelitian,Kania Lestari,Biologi,122000030
+31,Pending,2026-01-15 08:17:24,Surat Izin Penelitian,Yusuf Hakim,Kimia,122000031
+32,Pending,2026-01-15 10:42:58,Surat Pengantar Penelitian,Aulia Rahma,Sains Data,122000032
+33,Pending,2026-01-16 09:26:41,Surat Izin Penelitian,Kevin Nugraha,Fisika,122000033
+34,Pending,2026-01-16 13:33:07,Surat Pengantar Penelitian,Dewi Anggraini,Sains Aktuaria,122000034
+35,Pending,2026-01-17 08:58:49,Surat Izin Penelitian,Andi Wibowo,Sains Lingkungan Kelautan,122000035
+36,Pending,2026-01-17 11:14:22,Surat Pengantar Penelitian,Maura Zalfa,Magister Fisika,122000036
+37,Pending,2026-01-18 09:47:15,Surat Izin Penelitian,Raihan Fadillah,Matematika,122000037
+38,Pending,2026-01-18 15:09:38,Surat Pengantar Penelitian,Intan Permata,Biologi,122000038
+39,Pending,2026-01-19 08:34:53,Surat Izin Penelitian,Fajar Alamsyah,Kimia,122000039
+40,Pending,2026-01-19 10:51:26,Surat Pengantar Penelitian,Laras Ayu,Sains Data,122000040
+41,Pending,2026-01-20 09:12:08,Surat Izin Penelitian,Reza Saputra,Fisika,122000041
+42,Pending,2026-01-20 13:40:31,Surat Pengantar Penelitian,Dinda Maharani,Sains Aktuaria,122000042
+43,Pending,2026-01-21 08:29:47,Surat Izin Penelitian,Raka Mahendra,Sains Lingkungan Kelautan,122000043
+44,Pending,2026-01-21 11:58:13,Surat Pengantar Penelitian,Shafa Anindya,Magister Fisika,122000044
+45,Pending,2026-01-22 09:05:36,Surat Izin Penelitian,Aldi Prakoso,Matematika,122000045
+46,Pending,2026-01-22 14:22:54,Surat Pengantar Penelitian,Citra Larasati,Biologi,122000046
+47,Pending,2026-01-23 08:46:17,Surat Izin Penelitian,Naufal Aditya,Kimia,122000047
+48,Pending,2026-01-23 10:19:45,Surat Pengantar Penelitian,Hanum Salsabila,Sains Data,122000048
+49,Pending,2026-01-24 09:31:29,Surat Izin Penelitian,Gilang Prasetyo,Fisika,122000049
+50,Pending,2026-01-24 12:07:56,Surat Pengantar Penelitian,Mutiara Nabila,Sains Aktuaria,122000050
+51,Pending,2026-01-25 08:53:11,Surat Izin Penelitian,Rangga Fauzan,Sains Lingkungan Kelautan,122000051
+52,Pending,2026-01-25 13:16:34,Surat Pengantar Penelitian,Alya Nuraini,Magister Fisika,122000052
+53,Pending,2026-01-26 09:44:02,Surat Izin Penelitian,Bima Arifin,Matematika,122000053
+54,Pending,2026-01-26 11:27:48,Surat Pengantar Penelitian,Putri Handayani,Biologi,122000054
+55,Pending,2026-01-27 08:38:25,Surat Izin Penelitian,Fathan Ridwan,Kimia,122000055
+56,Pending,2026-01-27 14:05:17,Surat Pengantar Penelitian,Amira Zahra,Sains Data,122000056
+57,Pending,2026-01-28 09:23:39,Surat Izin Penelitian,Rafi Nasution,Fisika,122000057
+58,Pending,2026-01-28 10:57:04,Surat Pengantar Penelitian,Syifa Maulida,Sains Aktuaria,122000058
+59,Pending,2026-01-29 08:12:46,Surat Izin Penelitian,Indra Kurniawan,Sains Lingkungan Kelautan,122000059
+60,Pending,2026-01-29 13:49:28,Surat Pengantar Penelitian,Elsa Novita,Magister Fisika,122000060
+61,Pending,2026-01-30 09:18:55,Surat Izin Penelitian,Ridho Saputra,Matematika,122000061
+62,Pending,2026-01-30 11:35:21,Surat Pengantar Penelitian,Vania Rahmadani,Biologi,122000062
+63,Pending,2026-01-31 08:41:09,Surat Izin Penelitian,Akbar Maulana,Kimia,122000063
+64,Pending,2026-01-31 14:18:37,Surat Pengantar Penelitian,Sekarsari Putri,Sains Data,122000064
+65,Pending,2026-02-01 09:07:14,Surat Izin Penelitian,Taufik Hidayat,Fisika,122000065
+66,Pending,2026-02-01 12:44:51,Surat Pengantar Penelitian,Nurul Fadhilah,Sains Aktuaria,122000066
+67,Pending,2026-02-02 08:30:26,Surat Izin Penelitian,Galih Permana,Sains Lingkungan Kelautan,122000067
+68,Pending,2026-02-02 10:59:43,Surat Pengantar Penelitian,Riska Aprilia,Magister Fisika,122000068
+69,Pending,2026-02-03 09:36:12,Surat Izin Penelitian,Habib Firmansyah,Matematika,122000069
+70,Pending,2026-02-03 13:25:58,Surat Pengantar Penelitian,Anggun Lestari,Biologi,122000070
+71,Pending,2026-02-04 08:47:35,Surat Izin Penelitian,Deni Hermawan,Kimia,122000071
+72,Pending,2026-02-04 11:21:09,Surat Pengantar Penelitian,Naura Fatimah,Sains Data,122000072
+73,Pending,2026-02-05 09:52:44,Surat Izin Penelitian,Irfan Maulana,Fisika,122000073
+74,Pending,2026-02-05 14:13:27,Surat Pengantar Penelitian,Adelia Kirana,Sains Aktuaria,122000074
+75,Pending,2026-02-06 08:25:18,Surat Izin Penelitian,Bayu Nugroho,Sains Lingkungan Kelautan,122000075
+76,Pending,2026-02-06 10:46:39,Surat Pengantar Penelitian,Marsha Kinanti,Magister Fisika,122000076
+77,Pending,2026-02-07 09:14:53,Surat Izin Penelitian,Adam Rizaldi,Matematika,122000077
+78,Pending,2026-02-07 13:02:16,Surat Pengantar Penelitian,Tiara Novelia,Biologi,122000078
+79,Pending,2026-02-08 08:57:28,Surat Izin Penelitian,Wahyu Prakoso,Kimia,122000079
+80,Pending,2026-02-08 11:39:41,Surat Pengantar Penelitian,Alya Salsabila,Sains Data,122000080
+81,Pending,2026-02-09 09:22:07,Surat Izin Penelitian,Rendy Kusnadi,Fisika,122000081
+82,Sudah Dilayani,2026-02-09 14:28:33,Surat Pengantar Penelitian,Fitri Amalia,Sains Aktuaria,122000082
+83,Sudah Dilayani,2026-02-10 08:19:52,Surat Izin Penelitian,Hamdan Fauzi,Sains Lingkungan Kelautan,122000083
+84,Sudah Dilayani,2026-02-10 10:33:15,Surat Pengantar Penelitian,Annisya Putri,Magister Fisika,122000084
+85,Sudah Dilayani,2026-02-11 09:41:26,Surat Izin Penelitian,Rio Fernando,Matematika,122000085
+86,Sudah Dilayani,2026-02-11 12:16:49,Surat Pengantar Penelitian,Vina Marlina,Biologi,122000086
+87,Sudah Dilayani,2026-02-12 08:49:31,Surat Izin Penelitian,Tegar Sanjaya,Kimia,122000087
+88,Sudah Dilayani,2026-02-12 13:57:04,Surat Pengantar Penelitian,Hana Nurfadila,Sains Data,122000088
+89,Sudah Dilayani,2026-02-13 09:10:42,Surat Izin Penelitian,Arif Hartono,Fisika,122000089
+90,Sudah Dilayani,2026-02-13 11:44:20,Surat Pengantar Penelitian,Meyra Lestari,Sains Aktuaria,122000090
+91,Sudah Dilayani,2026-02-14 08:36:13,Surat Izin Penelitian,Ferdiansyah Putra,Sains Lingkungan Kelautan,122000091
+92,Sudah Dilayani,2026-02-14 14:07:59,Surat Pengantar Penelitian,Diah Kartika,Magister Fisika,122000092
+93,Sudah Dilayani,2026-02-15 09:29:38,Surat Izin Penelitian,Haikal Ramadhan,Matematika,122000093
+94,Sudah Dilayani,2026-02-15 10:52:24,Surat Pengantar Penelitian,Monica Safira,Biologi,122000094
+95,Sudah Dilayani,2026-02-16 08:43:17,Surat Izin Penelitian,Agung Pratama,Kimia,122000095
+96,Sudah Dilayani,2026-02-16 13:31:45,Surat Pengantar Penelitian,Felicia Anggraini,Sains Data,122000096
+97,Sudah Dilayani,2026-02-17 09:06:29,Surat Izin Penelitian,Farhan Akbar,Fisika,122000097
+98,Sudah Dilayani,2026-02-17 11:19:56,Surat Pengantar Penelitian,Raisa Mahira,Sains Aktuaria,122000098
+99,Sudah Dilayani,2026-02-18 08:55:34,Surat Izin Penelitian,Yoga Adinata,Sains Lingkungan Kelautan,122000099
+100,Sudah Dilayani,2026-02-18 13:12:08,Surat Pengantar Penelitian,Karina Nadira,Magister Fisika,122000100
