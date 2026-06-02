@@ -65,7 +65,7 @@ def check_uniqueness(df, unique_keys):
     if not unique_keys:
         return df
     
-    is_duplicate = df.duplicated(subset=unique_keys, keep=False)
+    is_duplicate = df.duplicated(subset=unique_keys, keep='first')
     df.loc[is_duplicate, 'quality_flag'] = 'FAIL'
     df.loc[is_duplicate, 'quality_issues'] += f"Data duplikat pada kolom {unique_keys}; "
     

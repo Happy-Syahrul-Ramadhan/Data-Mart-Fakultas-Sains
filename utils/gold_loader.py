@@ -58,6 +58,25 @@ def init_schema():
         logger.error(f"Fatal error in init_schema(): {e}")
         raise
 
+
+def reset_gold_tables():
+    try:
+        execute_query(
+            """
+            TRUNCATE TABLE
+                datamart.fact_layanan_mahasiswa,
+                datamart.dim_waktu,
+                datamart.dim_mahasiswa,
+                datamart.dim_layanan_jenis,
+                datamart.dim_status_layanan
+            RESTART IDENTITY CASCADE
+            """
+        )
+        logger.info("Gold tables reset successfully")
+    except Exception as e:
+        logger.error(f"Failed to reset gold tables: {e}")
+        raise
+
 # DIMENSION TABLES LOADING
 #Load dimension table: status layanan (Pending, Sudah Dilayani)
 def load_dim_status():
@@ -205,12 +224,17 @@ def load_dim_waktu(silver_path):
 def load_fact_layanan(silver_path):
     execute_query("TRUNCATE TABLE datamart.fact_layanan_mahasiswa RESTART IDENTITY")
 
+    def normalize_text(value):
+        if pd.isna(value):
+            return ''
+        return ' '.join(str(value).strip().split())
+
     def get_first_value(row, columns, keywords):
         for col in columns:
             if any(keyword in col for keyword in keywords):
                 value = row.get(col, '')
                 if pd.notna(value) and str(value).strip() != '':
-                    return str(value).strip()
+                    return normalize_text(value)
         return ''
 
     source_rows = []
@@ -237,6 +261,11 @@ def load_fact_layanan(silver_path):
         return
 
     fact_df = pd.DataFrame(source_rows)
+    fact_df['nim'] = fact_df['nim'].apply(normalize_text)
+    fact_df['nama_mahasiswa'] = fact_df['nama_mahasiswa'].apply(normalize_text)
+    fact_df['program_studi'] = fact_df['program_studi'].apply(normalize_text)
+    fact_df['status_layanan'] = fact_df['status_layanan'].apply(normalize_text)
+    fact_df['nama_layanan'] = fact_df['nama_layanan'].apply(normalize_text)
     fact_df = fact_df[fact_df['nim'] != '']
     fact_df = fact_df[fact_df['status_layanan'] != '']
     fact_df = fact_df[fact_df['nama_layanan'] != '']
@@ -255,16 +284,19 @@ def load_fact_layanan(silver_path):
         fetch_all("SELECT id_mahasiswa, nim FROM datamart.dim_mahasiswa"),
         columns=['id_mahasiswa', 'nim']
     )
+    mahasiswa_df['nim'] = mahasiswa_df['nim'].apply(normalize_text)
 
     fact_df = fact_df.merge(mahasiswa_df, on='nim', how='inner')
     jenis_df = pd.DataFrame(
         fetch_all("SELECT id_layanan_jenis, nama_layanan FROM datamart.dim_layanan_jenis"),
         columns=['id_layanan_jenis', 'nama_layanan']
     )
+    jenis_df['nama_layanan'] = jenis_df['nama_layanan'].apply(normalize_text)
     status_df = pd.DataFrame(
         fetch_all("SELECT id_status, status_layanan FROM datamart.dim_status_layanan"),
         columns=['id_status', 'status_layanan']
     )
+    status_df['status_layanan'] = status_df['status_layanan'].apply(normalize_text)
     waktu_df = pd.DataFrame(
         fetch_all("SELECT id_waktu, tanggal, jam, hari, bulan, tahun, hour FROM datamart.dim_waktu"),
         columns=['id_waktu', 'tanggal', 'jam', 'hari', 'bulan', 'tahun', 'hour']
@@ -319,6 +351,7 @@ def load_all_to_gold(silver_path):
     """
     try:
         init_schema()
+        reset_gold_tables()
         
         logger.info("\nLoading dimension tables...")
         load_dim_status()

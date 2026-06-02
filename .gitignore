@@ -15,6 +15,7 @@ configs/
 # Secrets
 credentials/credentials.json
 credentials/*.json
+.continue/new-config.yaml
 
 # OS
 .DS_Store

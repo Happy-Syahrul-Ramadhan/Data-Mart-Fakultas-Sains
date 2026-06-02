@@ -7,8 +7,10 @@ id,status,timestamp,jenis_layanan,nama,program_studi,nim
 6,Sudah Dilayani,2026-02-15 08:13:28,Pengunduran Diri,Rani Khumaira,Fisika,122000124
 7,Pending,2026-02-15 10:18:54,Pengunduran Diri,Fahreza Nugroho,Kimia,122000125
 8,Pending,2026-02-15 13:30:07,Pengunduran Diri,Salwa Puspita,Matematika,122000126
+9,Pending,2026-02-16 08:22:11,Pengunduran Diri,Ferdy Hidayat,Kimia,122000127
 10,Pending,2026-02-16 09:56:39,Pengunduran Diri,Meisya Rahmani,Sains Aktuaria,122000128
 11,Pending,2026-02-16 12:12:24,Pengunduran Diri,Bima Prakoso,Sains Lingkungan Kelautan,122000129
+12,Pending,2026-02-17 08:17:49,Pengunduran Diri,Anya Nurhaliza,Sains Data,122000130
 13,Pending,2026-02-17 10:08:22,Pengunduran Diri,Rafsan Wijaya,Fisika,122000131
 14,Pending,2026-02-17 13:19:46,Pengunduran Diri,Keira Anggraini,Kimia,122000132
 15,Pending,2026-02-18 08:36:51,Pengunduran Diri,Gilang Ramadhan,Biologi,122000133
@@ -90,10 +92,10 @@ id,status,timestamp,jenis_layanan,nama,program_studi,nim
 91,Pending,2026-03-27 08:43:17,Pengunduran Diri,Deni Hermawan,Farmasi,122000209
 92,Pending,2026-03-27 10:25:59,Pengunduran Diri,Adelia Kirana,Sains Atmosfer dan Keplanetan,122000210
 93,Pending,2026-03-28 09:36:21,Pengunduran Diri,Habib Firmansyah,Sains Data,122000211
-94,Pending,2026-03-28 14:18:40,Pengunduran Diri,Riska Aprilia,Matematika,122000212
-95,Pending,2026-03-29 08:57:13,Pengunduran Diri,Naufal Aditya,Fisika,122000213
-96,Pending,2026-03-29 11:08:35,Pengunduran Diri,Intan Permata,Kimia,122000214
-97,Pending,2026-03-30 09:44:52,Pengunduran Diri,Andi Wibowo,Biologi,122000215
-98,Pending,2026-03-30 13:29:18,Pengunduran Diri,Aulia Rahma,Sains Aktuaria,122000216
-99,Pending,2026-03-31 08:38:46,Pengunduran Diri,Keisha Anindita,Magister Fisika,122000217
-100,Pending,2026-03-31 10:53:27,Pengunduran Diri,Galih Permana,Sains Lingkungan Kelautan,122000218
+94,Sudah Dilayani,2026-03-28 14:18:40,Pengunduran Diri,Riska Aprilia,Matematika,122000212
+95,Sudah Dilayani,2026-03-29 08:57:13,Pengunduran Diri,Naufal Aditya,Fisika,122000213
+96,Sudah Dilayani,2026-03-29 11:08:35,Pengunduran Diri,Intan Permata,Kimia,122000214
+97,Sudah Dilayani,2026-03-30 09:44:52,Pengunduran Diri,Andi Wibowo,Biologi,122000215
+98,Sudah Dilayani,2026-03-30 13:29:18,Pengunduran Diri,Aulia Rahma,Sains Aktuaria,122000216
+99,Sudah Dilayani,2026-03-31 08:38:46,Pengunduran Diri,Keisha Anindita,Magister Fisika,122000217
+101,Pending,2026-05-31 10:53:27,Pengunduran Diri,Galih Permana,Sains Lingkungan Kelautan,122000218

@@ -1,0 +1,2 @@
+id,status,timestamp,jenis_layanan,nama,nim,quality_flag,quality_issues,quarantine_date
+65,Pending,26/03/2026,Tidak Alih Jenjang,Rendy Firmansyah,122000223,FAIL,Kolom 'timestamp' format tanggal salah; ,2026-05-26 01:02:19

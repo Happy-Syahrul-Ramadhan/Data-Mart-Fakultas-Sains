@@ -1,2 +1,3 @@
 id,status,timestamp,jenis_layanan,nama,program_studi,nim,quality_flag,quality_issues,quarantine_date
-13,Pending,10/02/2026 13:11:49,Pengajuan Cuti,Nanda Saputro,,122000112,FAIL,Kolom 'program_studi' kosong; ,2026-05-22 16:44:22
+13,Pending,10/02/2026 13:11:49,Pengajuan Cuti,Nanda Saputro,,122000112,FAIL,Kolom 'program_studi' kosong; ,2026-05-26 01:02:19
+100,Pending,25/03/2026 9:20:15,Pengajuan Cuti,Fajar Alamsyah,Farmasi,122000199,FAIL,Data duplikat pada kolom ['id']; ,2026-05-26 01:02:19
