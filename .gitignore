@@ -11,6 +11,7 @@ configs/
 # Environment
 .env.local
 .env.*.local
+.env
 
 # Secrets
 credentials/credentials.json
