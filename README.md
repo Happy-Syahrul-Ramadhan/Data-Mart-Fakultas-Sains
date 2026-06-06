@@ -48,7 +48,7 @@ flowchart LR
 
 Apache Superset digunakan sebagai layer business intelligence untuk membuat dashboard dari tabel di schema `datamart`.
 
-Contoh visualisasi yang cocok:
+pada dashboard mencakup 3 KPI dan beberapa visualisasi lainnya:
 - jumlah permohonan per jenis layanan
 - status layanan per periode waktu
 - distribusi permohonan per program studi
@@ -74,7 +74,3 @@ Superset terhubung langsung ke PostgreSQL sehingga data yang sudah masuk ke laye
 - `data/` - file CSV bronze, silver, dan quarantine.
 - `credentials/` - kredensial Google Sheets.
 - `logs/` - log eksekusi Airflow.
-
-## Catatan
-
-Pastikan file `credentials/credentials.json` tersedia dan environment variable yang dibutuhkan sudah diisi sebelum menjalankan pipeline.
