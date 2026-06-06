@@ -8,6 +8,7 @@ Pipeline memakai arsitektur medallion:
 - **Bronze**: data mentah dari Google Sheets disimpan ke CSV.
 - **Silver**: data divalidasi, dibersihkan, dan dipisahkan ke data layak pakai atau quarantine.
 - **Gold**: data dimuat ke PostgreSQL sebagai tabel dimensi dan tabel fakta untuk analisis.
+- **Visualisasi**: Apache Superset dapat dihubungkan ke PostgreSQL untuk dashboard dan eksplorasi data.
 
 DAG utama bernama `etl_medallion` dan dijalankan otomatis setiap 2 menit.
 
@@ -30,6 +31,7 @@ flowchart LR
     D --> F[Quarantine CSV]
     E --> G[Gold Loader]
     G --> H[(PostgreSQL Datamart)]
+    H --> I[Apache Superset Dashboard]
 
     subgraph Docker Compose
         I[Airflow Webserver]
@@ -41,12 +43,25 @@ flowchart LR
     end
 ```
 
+### Visualisasi dengan Apache Superset
+
+Apache Superset digunakan sebagai layer business intelligence untuk membuat dashboard dari tabel di schema `datamart`.
+
+Contoh visualisasi yang cocok:
+- jumlah permohonan per jenis layanan
+- status layanan per periode waktu
+- distribusi permohonan per program studi
+- tren layanan mahasiswa dari waktu ke waktu
+
+Superset terhubung langsung ke PostgreSQL sehingga data yang sudah masuk ke layer gold bisa dianalisis tanpa mengubah pipeline ETL.
+
 ### Komponen Utama
 
 - **Apache Airflow**: orkestrasi ETL, scheduling, dan monitoring DAG.
 - **Google Sheets API**: sumber data utama.
 - **Pandas**: transformasi dan validasi data.
 - **PostgreSQL**: penyimpanan layer gold / datamart.
+- **Apache Superset**: visualisasi dashboard dan analisis data dari datamart.
 - **Redis**: broker untuk Celery Executor.
 - **Docker Compose**: menjalankan seluruh stack secara lokal.
 
