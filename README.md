@@ -1,6 +1,6 @@
 # Arsitektur Data Mart Fakultas Sains
 
-Proyek ini adalah pipeline ETL berbasis Apache Airflow untuk mengolah data permohonan layanan mahasiswa dari Google Sheets ke data mart PostgreSQL.
+Proyek ini adalah pipeline ETL berbasis Apache Airflow untuk mengolah data permohonan layanan mahasiswa ke data mart PostgreSQL.
 
 ## Gambaran Singkat
 
