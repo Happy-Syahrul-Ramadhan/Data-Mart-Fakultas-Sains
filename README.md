@@ -1,5 +1,5 @@
 # Arsitektur Data Mart Fakultas Sains
-<img width="6223" height="3935" alt="Image" src="https://github.com/user-attachments/assets/6f598fbc-11bb-4ec8-9af2-79127d655f16" />
+<img width="1231" height="773" alt="Image" src="https://github.com/user-attachments/assets/6cf79fa3-a7b1-4b97-a1d2-f95db78a2129" />
 
 Proyek ini adalah pipeline ETL berbasis Apache Airflow untuk mengolah data permohonan layanan mahasiswa ke data mart PostgreSQL.
 
